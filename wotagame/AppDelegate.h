@@ -5,6 +5,7 @@
 //  Created by KikruaYuichirou on 2013/08/21.
 //  Copyright wotagineer 2013年. All rights reserved.
 //
+//	アプリのエントリポイント
 
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"

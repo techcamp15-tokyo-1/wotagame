@@ -5,6 +5,7 @@
 //  Created by KikruaYuichirou on 2013/08/22.
 //  Copyright (c) 2013年 wotagineer. All rights reserved.
 //
+//	楽譜のアクションノードモデル
 
 enum NODETYPE {
 	ACTION = 0,

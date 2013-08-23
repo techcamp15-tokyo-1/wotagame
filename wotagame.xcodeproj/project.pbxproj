@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EF39D00417C59404005F1F33 /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D00317C59404005F1F33 /* PlayController.m */; };
-		EF39D00C17C5E2CE005F1F33 /* PUSH.png in Resources */ = {isa = PBXBuildFile; fileRef = EF39D00B17C5E2CE005F1F33 /* PUSH.png */; };
 		EF39D01217C60631005F1F33 /* ScoreNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D01117C60630005F1F33 /* ScoreNode.m */; };
 		EF65304C17C7CA33005481E9 /* ScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF65304B17C7CA33005481E9 /* ScoreModel.m */; };
-		EF6AB52D17C6640C007FC69B /* bgm2.wmf in Resources */ = {isa = PBXBuildFile; fileRef = EFD0768E17C6619800A67431 /* bgm2.wmf */; };
 		EF71752F17C4AC0400901D2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71752E17C4AC0400901D2D /* QuartzCore.framework */; };
 		EF71753117C4AC0400901D2D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753017C4AC0400901D2D /* OpenGLES.framework */; };
 		EF71753317C4AC0400901D2D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753217C4AC0400901D2D /* OpenAL.framework */; };
@@ -145,11 +143,6 @@
 		EF7176D217C4AC0700901D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176D117C4AC0700901D2D /* main.m */; };
 		EF7176D517C4AC0700901D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176D417C4AC0700901D2D /* AppDelegate.m */; };
 		EF7176F217C4ADB200901D2D /* PlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176F117C4ADB200901D2D /* PlayLayer.m */; };
-		EFB3B92217C773BD0094B4A7 /* kaze.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3B92117C773BD0094B4A7 /* kaze.png */; };
-		EFCCACA017C66948001069ED /* bgm2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EFCCAC9F17C66948001069ED /* bgm2.m4a */; };
-		EFCCACA217C67F40001069ED /* bgm2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCCACA117C67F40001069ED /* bgm2.png */; };
-		EFD18CB017C6E84F006E3E34 /* kaze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CAF17C6E84F006E3E34 /* kaze.m4a */; };
-		EFD18CB217C6E866006E3E34 /* kaze.wmf in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CB117C6E866006E3E34 /* kaze.wmf */; };
 		EFD18CBB17C72929006E3E34 /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CB917C72929006E3E34 /* cell.plist */; };
 		EFD18CBC17C72929006E3E34 /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CBA17C72929006E3E34 /* cell.png */; };
 /* End PBXBuildFile section */
@@ -157,7 +150,6 @@
 /* Begin PBXFileReference section */
 		EF39D00217C59404005F1F33 /* PlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayController.h; sourceTree = "<group>"; };
 		EF39D00317C59404005F1F33 /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
-		EF39D00B17C5E2CE005F1F33 /* PUSH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PUSH.png; path = Resources/PUSH.png; sourceTree = "<group>"; };
 		EF39D01017C60630005F1F33 /* ScoreNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreNode.h; sourceTree = "<group>"; };
 		EF39D01117C60630005F1F33 /* ScoreNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreNode.m; sourceTree = "<group>"; };
 		EF65304A17C7CA33005481E9 /* ScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreModel.h; sourceTree = "<group>"; };
@@ -441,14 +433,8 @@
 		EF7176D417C4AC0700901D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF7176F017C4ADB200901D2D /* PlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayLayer.h; sourceTree = "<group>"; };
 		EF7176F117C4ADB200901D2D /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLayer.m; sourceTree = "<group>"; };
-		EFB3B92117C773BD0094B4A7 /* kaze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaze.png; sourceTree = "<group>"; };
-		EFCCAC9F17C66948001069ED /* bgm2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgm2.m4a; sourceTree = "<group>"; };
-		EFCCACA117C67F40001069ED /* bgm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgm2.png; sourceTree = "<group>"; };
-		EFD0768E17C6619800A67431 /* bgm2.wmf */ = {isa = PBXFileReference; lastKnownFileType = text; name = bgm2.wmf; path = Resources/bgm2.wmf; sourceTree = "<group>"; usesTabs = 1; };
-		EFD18CAF17C6E84F006E3E34 /* kaze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaze.m4a; sourceTree = "<group>"; };
-		EFD18CB117C6E866006E3E34 /* kaze.wmf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kaze.wmf; sourceTree = "<group>"; };
-		EFD18CB917C72929006E3E34 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cell.plist; sourceTree = "<group>"; };
-		EFD18CBA17C72929006E3E34 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		EFD18CB917C72929006E3E34 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cell.plist; path = Resources/cell.plist; sourceTree = "<group>"; };
+		EFD18CBA17C72929006E3E34 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell.png; path = Resources/cell.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,20 +518,13 @@
 				EF71754417C4AC0400901D2D /* Default.png */,
 				EF71754617C4AC0400901D2D /* Default@2x.png */,
 				EF71754817C4AC0400901D2D /* Default-568h@2x.png */,
-				EF39D00B17C5E2CE005F1F33 /* PUSH.png */,
 				EF71754A17C4AC0400901D2D /* Default-Landscape~ipad.png */,
-				EFCCAC9F17C66948001069ED /* bgm2.m4a */,
-				EFCCACA117C67F40001069ED /* bgm2.png */,
-				EFD0768E17C6619800A67431 /* bgm2.wmf */,
 				EF71754C17C4AC0400901D2D /* Icon-72.png */,
 				EF71754E17C4AC0400901D2D /* Icon-Small-50.png */,
 				EF71755017C4AC0400901D2D /* Icon-Small.png */,
 				EF71755217C4AC0400901D2D /* Icon-Small@2x.png */,
 				EF71755417C4AC0400901D2D /* Icon.png */,
 				EF71755617C4AC0400901D2D /* Icon@2x.png */,
-				EFD18CAF17C6E84F006E3E34 /* kaze.m4a */,
-				EFB3B92117C773BD0094B4A7 /* kaze.png */,
-				EFD18CB117C6E866006E3E34 /* kaze.wmf */,
 				EFD18CB917C72929006E3E34 /* cell.plist */,
 				EFD18CBA17C72929006E3E34 /* cell.png */,
 				EF71755817C4AC0400901D2D /* Info.plist */,
@@ -979,15 +958,8 @@
 				EF71755717C4AC0400901D2D /* Icon@2x.png in Resources */,
 				EF71755A17C4AC0400901D2D /* iTunesArtwork in Resources */,
 				EF7176B317C4AC0700901D2D /* ChangeLog in Resources */,
-				EF39D00C17C5E2CE005F1F33 /* PUSH.png in Resources */,
-				EF6AB52D17C6640C007FC69B /* bgm2.wmf in Resources */,
-				EFCCACA017C66948001069ED /* bgm2.m4a in Resources */,
-				EFCCACA217C67F40001069ED /* bgm2.png in Resources */,
-				EFD18CB017C6E84F006E3E34 /* kaze.m4a in Resources */,
-				EFD18CB217C6E866006E3E34 /* kaze.wmf in Resources */,
 				EFD18CBB17C72929006E3E34 /* cell.plist in Resources */,
 				EFD18CBC17C72929006E3E34 /* cell.png in Resources */,
-				EFB3B92217C773BD0094B4A7 /* kaze.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

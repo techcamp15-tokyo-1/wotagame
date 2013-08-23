@@ -11,9 +11,6 @@
 @implementation ScoreNode
 
 static NSMutableArray *AllNodeList;	//ノード一覧
-static NSString *_title;	//曲名
-static NSString *_url;	//ファイルパス
-static int bpm;	//bpm
 
 +(void) initialize {
 	AllNodeList = [[NSMutableArray alloc] init];
