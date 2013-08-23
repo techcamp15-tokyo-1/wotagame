@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="wotagameIcon.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient9986">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9988" />
+      <stop
+         id="stop9994"
+         offset="0.64516127"
+         style="stop-color:#0000ff;stop-opacity:0.176;" />
+      <stop
+         style="stop-color:#0200ff;stop-opacity:1;"
+         offset="1"
+         id="stop9990" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9952">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9954" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.65600002;"
+         offset="1"
+         id="stop9956" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9952"
+       id="linearGradient9958"
+       x1="-78.304901"
+       y1="292.03897"
+       x2="-75.064705"
+       y2="539.28564"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9952"
+       id="linearGradient9982"
+       gradientUnits="userSpaceOnUse"
+       x1="-78.304901"
+       y1="292.03897"
+       x2="-75.064705"
+       y2="539.28564" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9952"
+       id="linearGradient10002"
+       x1="157.68834"
+       y1="653.99164"
+       x2="157.68834"
+       y2="859.9837"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(11.383666,2.2829981)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.42599944"
+     inkscape:cx="1388.2341"
+     inkscape:cy="56.658792"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1444"
+     inkscape:window-height="859"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g9973"
+       transform="matrix(0.21276596,0,0,0.21276596,511.56136,168.76386)"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/btnPause.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(174.97095,205.21284)"
+         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
+         sodipodi:ry="203.0527"
+         sodipodi:rx="203.0527"
+         sodipodi:cy="439.96387"
+         sodipodi:cx="-76.684799"
+         id="path9946"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path9948"
+         sodipodi:cx="-76.684799"
+         sodipodi:cy="439.96387"
+         sodipodi:rx="203.0527"
+         sodipodi:ry="203.0527"
+         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
+         transform="matrix(0.86702128,0,0,0.86702128,164.7735,263.71867)" />
+      <path
+         sodipodi:type="arc"
+         style="opacity:0.41946309;fill:url(#linearGradient9982);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path9950"
+         sodipodi:cx="-76.684799"
+         sodipodi:cy="439.96387"
+         sodipodi:rx="203.0527"
+         sodipodi:ry="203.0527"
+         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
+         transform="translate(174.97095,205.21284)" />
+      <g
+         style="fill:#4d4d4d"
+         transform="matrix(0.75618046,0,0,1.0461917,23.675926,-29.172019)"
+         id="g9969">
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect9965"
+           width="85.82325"
+           height="201.10822"
+           x="-18.070049"
+           y="549.13342" />
+        <rect
+           y="549.13342"
+           x="126.4554"
+           height="201.10822"
+           width="85.82325"
+           id="rect9967"
+           style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <path
+         id="path9960"
+         d="m 98.28125,442.125 c -100.1701963,0 -183.370242,72.52649 -200,167.9375 49.427523,24.31837 121.051403,39.625 200.78125,39.625 78.94287,0 149.97093,-15.00494 199.34375,-38.90625 C 282.06923,515.01715 198.70202,442.125 98.28125,442.125 z"
+         style="opacity:0.45973158;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="fill:url(#linearGradient10002);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect9984"
+       width="119.51116"
+       height="391.73102"
+       x="114.29606"
+       y="553.36224"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/bgPause.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g10383"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect10276"
+         d="m 486.06744,452.60839 200.0001,0 0,200 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10386"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 686.06754,452.60839 200.0001,0 0,200 -200.0001,0 z"
+         id="path10321"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10353"
+         d="m 686.06754,640.10839 200.0001,0 0,12.5 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10390"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10323"
+         d="m 886.06764,452.60839 200.00006,0 0,200 -200.00006,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 886.06764,627.60839 200.00006,0 0,25 -200.00006,0 z"
+         id="path10355"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10394"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge04.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 1086.0677,452.60839 200.0001,0 0,200 -200.0001,0 z"
+         id="path10325"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10357"
+         d="m 1086.0677,615.10839 200.0001,0 0,37.5 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10402"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 486.06744,652.60839 200.0001,0 0,200 -200.0001,0 z"
+         id="path10327"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10359"
+         d="m 486.06744,802.60839 200.0001,0 0,50 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10406"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge06.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10329"
+         d="m 686.06754,652.60839 200.0001,0 0,200 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 686.06754,790.10839 200.0001,0 0,62.5 -200.0001,0 z"
+         id="path10361"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10410"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge07.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 886.06764,652.60839 200.00006,0 0,200 -200.00006,0 z"
+         id="path10331"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10363"
+         d="m 886.06764,777.60839 200.00006,0 0,75 -200.00006,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10398"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge08.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10333"
+         d="m 1086.0677,652.60839 200.0001,0 0,200 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 1086.0677,752.60839 200.0001,0 0,100 -200.0001,0 z"
+         id="path10365"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10414"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge09.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10335"
+         d="m 486.06744,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 486.06744,940.1084 200.0001,0 0,112.5 -200.0001,0 z"
+         id="path10367"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10418"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge10.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 686.06754,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
+         id="path10337"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10369"
+         d="m 686.06754,927.6084 200.0001,0 0,125 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10422"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge11.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10339"
+         d="m 886.06764,852.60839 200.00006,0 0,200.00001 -200.00006,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 886.06764,915.1084 200.00006,0 0,137.5 -200.00006,0 z"
+         id="path10371"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10426"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge12.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 1086.0677,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
+         id="path10341"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10373"
+         d="m 1086.0677,902.6084 200.0001,0 0,150 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10442"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge13.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 486.06744,1052.6084 200.0001,0 0,200 -200.0001,0 z"
+         id="path10343"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10375"
+         d="m 486.06744,1090.1084 200.0001,0 0,162.5 -200.0001,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10438"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge14.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10345"
+         d="m 686.06754,1052.6084 200.0001,0 0,200 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 686.06754,1077.6084 200.0001,0 0,175 -200.0001,0 z"
+         id="path10377"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10434"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge15.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 886.06764,1052.6084 200.00006,0 0,200 -200.00006,0 z"
+         id="path10347"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path10379"
+         d="m 886.06764,1065.1084 200.00006,0 0,187.5 -200.00006,0 z"
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10430"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke:#000000;stroke-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10349"
+         d="m 1086.0677,1052.6084 200.0001,0 0,200 -200.0001,0 z"
+         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+      <path
+         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         d="m 1086.0677,1052.6084 200.0001,0 0,200 -200.0001,0 z"
+         id="path10381"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
