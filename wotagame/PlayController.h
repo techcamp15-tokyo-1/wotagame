@@ -7,33 +7,47 @@
 //
 //	Scene:Playの管理を行う
 
+#import "cocos2d.h"
 #import <AVFoundation/AVFoundation.h>
 #import "ScoreModel.h"
+@class PlayLayer;
 
 @interface PlayController : NSObject<
 	AVAudioPlayerDelegate,
 	CCTouchOneByOneDelegate
 > {
-	NSMutableArray *nodeArray;
-	int _bpm;
-	float _beat_offset;
 }
 
-@property (atomic, readonly) AVAudioPlayer *player;
-@property (atomic, readonly) BOOL isLoaded;
-@property (atomic, readonly) BOOL isPlaying;
-@property (atomic, readonly) int score;
+@property (retain) PlayLayer *playLayer;
+@property (readonly) bool isPlaying;
+@property (readonly) bool isLoaded;
+@property (readonly) int score;
 
-+(PlayController *) initialize;
--(void) loadFile: (NSString *)path_music withScorePath:(NSString *)path_score;
+//初期化
++(PlayController *) getInstance;
 
--(void) playMusic;
--(void) stopMusic;
--(void) pauseMusic;
--(void) restartMusic;
+//スタートボタンがタップされた
+-(void)btnStartTapped:(id)sender;
+
+//一時停止ボタンがタップされた
+-(void)btnPauseTapped:(id)sender;
+
+//ゲームをスタートするための準備を行う
+-(void) initializeToStart;
+
+//ゲームをスタートする
+-(void) start;
+
+//ゲームを中止する
+-(void) stop;
+
+//一時停止する
+-(void) pause;
+
+//最初からやりなおす
+-(void) restart;
 
 -(float) getBeat;
 -(NSMutableArray *) getShowNodeList;
--(float)getTouchGap:(float)beat ofCellID:(int)cellID;
--(void)onTouchBegan:(float)beat ofCellID:(int)cellID;
+
 @end

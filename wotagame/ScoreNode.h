@@ -7,12 +7,6 @@
 //
 //	楽譜のアクションノードモデル
 
-enum NODETYPE {
-	ACTION = 0,
-	BPM,
-	END
-};
-
 @interface ScoreNode : NSObject {
 }
 
@@ -24,3 +18,10 @@ enum NODETYPE {
 +(ScoreNode *) node:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type;
 
 @end
+
+enum NODETYPE {
+	TAP = 0,
+	BPM,
+	END
+};
+

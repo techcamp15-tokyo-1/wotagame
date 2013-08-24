@@ -36,11 +36,11 @@
     <linearGradient
        id="linearGradient9952">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0.71200001;"
          offset="0"
          id="stop9954" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.65600002;"
+         style="stop-color:#002962;stop-opacity:0.65600002;"
          offset="1"
          id="stop9956" />
     </linearGradient>
@@ -71,7 +71,16 @@
        x2="157.68834"
        y2="859.9837"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(11.383666,2.2829981)" />
+       gradientTransform="matrix(1.8934671,0,0,1,-80.565174,2.2829981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9952"
+       id="linearGradient3197"
+       gradientUnits="userSpaceOnUse"
+       x1="-78.304901"
+       y1="292.03897"
+       x2="-75.064705"
+       y2="539.28564" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -80,9 +89,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42599944"
-     inkscape:cx="1388.2341"
-     inkscape:cy="56.658792"
+     inkscape:zoom="0.2013499"
+     inkscape:cx="414.12395"
+     inkscape:cy="782.94873"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -93,8 +102,8 @@
      inkscape:snap-bbox-midpoints="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1444"
-     inkscape:window-height="859"
+     inkscape:window-width="1440"
+     inkscape:window-height="856"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
@@ -115,14 +124,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g9973"
-       transform="matrix(0.21276596,0,0,0.21276596,511.56136,168.76386)"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/btnPause.png"
+       id="g3985"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/btnPause.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
-         transform="translate(174.97095,205.21284)"
-         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
+         transform="matrix(0.21276596,0,0,0.21276596,548.78922,212.42617)"
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
          sodipodi:ry="203.0527"
          sodipodi:rx="203.0527"
          sodipodi:cy="439.96387"
@@ -138,21 +146,11 @@
          sodipodi:cy="439.96387"
          sodipodi:rx="203.0527"
          sodipodi:ry="203.0527"
-         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
-         transform="matrix(0.86702128,0,0,0.86702128,164.7735,263.71867)" />
-      <path
-         sodipodi:type="arc"
-         style="opacity:0.41946309;fill:url(#linearGradient9982);fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path9950"
-         sodipodi:cx="-76.684799"
-         sodipodi:cy="439.96387"
-         sodipodi:rx="203.0527"
-         sodipodi:ry="203.0527"
-         d="m 126.3679,439.96387 c 0,112.14291 -90.909787,203.0527 -203.052699,203.0527 -112.142911,0 -203.052701,-90.90979 -203.052701,-203.0527 0,-112.14291 90.90979,-203.05271 203.052701,-203.05271 112.142912,0 203.052699,90.9098 203.052699,203.05271 z"
-         transform="translate(174.97095,205.21284)" />
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
+         transform="matrix(0.18447261,0,0,0.18447261,546.61955,224.87422)" />
       <g
          style="fill:#4d4d4d"
-         transform="matrix(0.75618046,0,0,1.0461917,23.675926,-29.172019)"
+         transform="matrix(0.16088946,0,0,0.22259398,516.59879,162.55705)"
          id="g9969">
         <rect
            style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -170,21 +168,31 @@
            style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none" />
       </g>
       <path
+         sodipodi:type="arc"
+         style="opacity:0.41946309;fill:url(#linearGradient9982);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path9950"
+         sodipodi:cx="-76.684799"
+         sodipodi:cy="439.96387"
+         sodipodi:rx="203.0527"
+         sodipodi:ry="203.0527"
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
+         transform="matrix(0.21276596,0,0,0.21276596,548.78922,212.42617)" />
+      <path
          id="path9960"
-         d="m 98.28125,442.125 c -100.1701963,0 -183.370242,72.52649 -200,167.9375 49.427523,24.31837 121.051403,39.625 200.78125,39.625 78.94287,0 149.97093,-15.00494 199.34375,-38.90625 C 282.06923,515.01715 198.70202,442.125 98.28125,442.125 z"
+         d="m 532.47226,262.83301 c -21.3128,0 -39.01494,15.43117 -42.55319,35.73138 10.5165,5.17412 25.75562,8.43085 42.71942,8.43085 16.79635,0 31.90871,-3.19254 42.41356,-8.27792 -3.47596,-20.37534 -21.21366,-35.88431 -42.57979,-35.88431 z"
          style="opacity:0.45973158;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
     </g>
     <rect
        style="fill:url(#linearGradient10002);fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect9984"
-       width="119.51116"
+       width="226.29045"
        height="391.73102"
        x="114.29606"
        y="553.36224"
        inkscape:export-filename="/Users/Yuichiro/Desktop/bgPause.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="90.061798"
+       inkscape:export-ydpi="90.061798" />
     <g
        id="g10383"
        inkscape:export-filename="/Users/Yuichiro/Desktop/gauge01.png"
@@ -451,6 +459,64 @@
          d="m 1086.0677,1052.6084 200.0001,0 0,200 -200.0001,0 z"
          id="path10381"
          inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g3994"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/btnPlay.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path3183"
+         sodipodi:cx="-76.684799"
+         sodipodi:cy="439.96387"
+         sodipodi:rx="203.0527"
+         sodipodi:ry="203.0527"
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
+         transform="matrix(0.21276596,0,0,0.21276596,647.19463,214.42617)" />
+      <path
+         transform="matrix(0.18447261,0,0,0.18447261,645.02496,226.87422)"
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
+         sodipodi:ry="203.0527"
+         sodipodi:rx="203.0527"
+         sodipodi:cy="439.96387"
+         sodipodi:cx="-76.684799"
+         id="path3185"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.88088516,0,0,0.88088516,109.04061,63.385489)"
+         inkscape:transform-center-x="-7.3418109"
+         d="m 619.69006,278.82153 -50.00747,28.87183 0,-57.74366 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.0471976"
+         sodipodi:arg1="0"
+         sodipodi:r2="16.669159"
+         sodipodi:r1="33.338318"
+         sodipodi:cy="278.82153"
+         sodipodi:cx="586.35175"
+         sodipodi:sides="3"
+         id="path3206"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="star" />
+      <path
+         transform="matrix(0.21276596,0,0,0.21276596,647.19463,214.42617)"
+         d="m 126.3679,439.96387 a 203.0527,203.0527 0 1 1 -406.1054,0 203.0527,203.0527 0 1 1 406.1054,0 z"
+         sodipodi:ry="203.0527"
+         sodipodi:rx="203.0527"
+         sodipodi:cy="439.96387"
+         sodipodi:cx="-76.684799"
+         id="path3187"
+         style="opacity:0.41946309;fill:url(#linearGradient3197);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.45973158;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 630.87767,264.83301 c -21.3128,0 -39.01494,15.43117 -42.55319,35.73138 10.5165,5.17412 25.75562,8.43085 42.71942,8.43085 16.79635,0 31.90871,-3.19254 42.41356,-8.27792 -3.47596,-20.37534 -21.21366,-35.88431 -42.57979,-35.88431 z"
+         id="path3195" />
     </g>
   </g>
 </svg>

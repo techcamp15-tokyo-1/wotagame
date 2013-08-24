@@ -435,6 +435,9 @@
 		EF7176F117C4ADB200901D2D /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLayer.m; sourceTree = "<group>"; };
 		EFD18CB917C72929006E3E34 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cell.plist; path = Resources/cell.plist; sourceTree = "<group>"; };
 		EFD18CBA17C72929006E3E34 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell.png; path = Resources/cell.png; sourceTree = "<group>"; };
+		EFE42F4617C89FAC002AFE8C /* bgm2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgm2.m4a; sourceTree = "<group>"; };
+		EFE42F4717C89FAC002AFE8C /* bgm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgm2.png; sourceTree = "<group>"; };
+		EFE42F4817C89FAC002AFE8C /* bgm2.wmf */ = {isa = PBXFileReference; lastKnownFileType = text; path = bgm2.wmf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -523,6 +526,9 @@
 				EF71754E17C4AC0400901D2D /* Icon-Small-50.png */,
 				EF71755017C4AC0400901D2D /* Icon-Small.png */,
 				EF71755217C4AC0400901D2D /* Icon-Small@2x.png */,
+				EFE42F4617C89FAC002AFE8C /* bgm2.m4a */,
+				EFE42F4717C89FAC002AFE8C /* bgm2.png */,
+				EFE42F4817C89FAC002AFE8C /* bgm2.wmf */,
 				EF71755417C4AC0400901D2D /* Icon.png */,
 				EF71755617C4AC0400901D2D /* Icon@2x.png */,
 				EFD18CB917C72929006E3E34 /* cell.plist */,

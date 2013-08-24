@@ -22,7 +22,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>Objective-C/wotagame/wotagame/cell.png</filename>
+        <filename>../wotagame/Resources/cell.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -111,7 +111,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>Objective-C/wotagame/wotagame/cell.plist</filename>
+        <filename>../wotagame/Resources/cell.plist</filename>
         <key>multiPack</key>
         <false/>
         <key>mainExtension</key>
@@ -149,7 +149,6 @@
         <key>fileList</key>
         <array>
             <filename>btnPause.png</filename>
-            <filename>bgPause.png</filename>
             <filename>gauge03.png</filename>
             <filename>gauge08.png</filename>
             <filename>gauge13.png</filename>
@@ -166,6 +165,8 @@
             <filename>gauge07.png</filename>
             <filename>gauge02.png</filename>
             <filename>gauge01.png</filename>
+            <filename>btnPlay.png</filename>
+            <filename>bgPause.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -7,20 +7,33 @@
             <key>bgPause.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{120,392}}</string>
+                <string>{{2,2},{226,392}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{120,392}}</string>
+                <string>{{0,0},{226,392}}</string>
                 <key>sourceSize</key>
-                <string>{120,392}</string>
+                <string>{226,392}</string>
             </dict>
             <key>btnPause.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{124,205},{86,86}}</string>
+                <string>{{230,293},{86,86}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{86,86}}</string>
+                <key>sourceSize</key>
+                <string>{86,86}</string>
+            </dict>
+            <key>btnPlay.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{230,205},{86,86}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +46,7 @@
             <key>gauge01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,814},{201,201}}</string>
+                <string>{{611,408},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +59,7 @@
             <key>gauge02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,611},{201,201}}</string>
+                <string>{{408,814},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +72,7 @@
             <key>gauge03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,408},{201,201}}</string>
+                <string>{{408,611},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +85,7 @@
             <key>gauge04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{814,205},{201,201}}</string>
+                <string>{{408,408},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +98,7 @@
             <key>gauge05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{611,205},{201,201}}</string>
+                <string>{{814,205},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,7 +111,7 @@
             <key>gauge06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,205},{201,201}}</string>
+                <string>{{611,205},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -111,7 +124,7 @@
             <key>gauge07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,699},{201,201}}</string>
+                <string>{{408,205},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -124,7 +137,7 @@
             <key>gauge08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,496},{201,201}}</string>
+                <string>{{636,2},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -137,7 +150,7 @@
             <key>gauge09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,293},{201,201}}</string>
+                <string>{{433,2},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -150,7 +163,7 @@
             <key>gauge10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{733,2},{201,201}}</string>
+                <string>{{205,802},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -163,7 +176,7 @@
             <key>gauge11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{530,2},{201,201}}</string>
+                <string>{{205,599},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -176,7 +189,7 @@
             <key>gauge12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{327,2},{201,201}}</string>
+                <string>{{230,2},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,7 +202,7 @@
             <key>gauge13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,802},{201,201}}</string>
+                <string>{{205,396},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -202,7 +215,7 @@
             <key>gauge14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,599},{201,201}}</string>
+                <string>{{2,802},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -215,7 +228,7 @@
             <key>gauge15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{124,2},{201,201}}</string>
+                <string>{{2,599},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -248,7 +261,7 @@
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:32ba9e43f823926e108228778c4e80e0:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:72b7fe4c674f179126a7c2a6ac39c2cc:1/1$</string>
             <key>textureFileName</key>
             <string>cell.png</string>
         </dict>

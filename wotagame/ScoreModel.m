@@ -1,29 +1,40 @@
 //
-//  ScoreNode.m
+//  ScoreModel.m
 //  wotagame
 //
 //  Created by KikruaYuichirou on 2013/08/22.
 //  Copyright (c) 2013年 wotagineer. All rights reserved.
 //
 
-#import "ScoreNode.h"
+#import "ScoreModel.h"
 
-@implementation ScoreNode
+@implementation ScoreModel
 
+static ScoreMeta meta;	//曲情報
 static NSMutableArray *AllNodeList;	//ノード一覧
 
-+(void) initialize {
-	AllNodeList = [[NSMutableArray alloc] init];
+//インスタンスを取得する
++(ScoreModel *) getInstance {
+	static ScoreModel *instance;
+	if (!instance) {
+		instance = [[ScoreModel alloc] init];
+	}
+	return instance;
 }
 
-//ノードを追加
-+(void) addNode:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type {
+//曲情報を取得する
+-(ScoreMeta) getMeta {
+	return meta;
+}
+
+//ノードを追加する
+-(void) addNode:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type {
 	ScoreNode *node = [ScoreNode node:value atBeat:beat withType:type];
 	[AllNodeList addObject:node];
 }
 
 //現在のノードから先を指定した拍分取得する。
-+(NSMutableArray *) getFutureNodesAtBeat:(float)beat andDurationfrom:(float)durationBefore to:(float)durationAfter{
+-(NSMutableArray *) getFutureNodesAtBeat:(float)beat andDurationfrom:(float)durationBefore to:(float)durationAfter{
 	NSMutableArray *arr = [[NSMutableArray alloc] init];
 	ScoreNode *node;
 	
@@ -38,13 +49,20 @@ static NSMutableArray *AllNodeList;	//ノード一覧
 	return arr;
 }
 
-//楽譜データ読み込む
--(void) loadWmf:(NSString *)path {
+//楽譜を初期状態（読み込んだ直後の状態）に戻す
+-(void) initializeToRestart {
+	for(ScoreNode *node in AllNodeList) {
+		node.isShowed = NO;
+	}
+}
+
+//楽譜を読み込む
+-(void) loadScore:(NSString *)path {
 	NSString *text;
 	NSError *error;
 	text = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
 	
-	nodeArray = [[NSMutableArray alloc] init];
+	AllNodeList = [[NSMutableArray alloc] init];
 	
 	NSArray *lines = [text componentsSeparatedByString:@"\n"];
 	NSString *line;
@@ -64,25 +82,23 @@ static NSMutableArray *AllNodeList;	//ノード一覧
 			NSString *val = tags[1];
 			
 			if ([key isEqualToString:@"%OFFSET"]) {
-				_beat_offset = val.doubleValue;
-				NSLog(@"OFFSET = %f", _beat_offset);
+				meta.beatOffset = val.floatValue;
 			} else if ([key isEqualToString:@"%BPM"]) {
-				_bpm = val.intValue;
-				NSLog(@"BPM = %d", _bpm);
+				meta.bpm = val.intValue;
 			}
 		} else {
 			//ノード
 			NSArray *tags = [line componentsSeparatedByString:@" "];
-			NSString *beat = tags[0];
+			float beat = ((NSString *)tags[0]).floatValue;
 			NSString *key = tags[1];
 			NSString *value = tags[2];
 			
 			enum NODETYPE *nodetype;
-			if ([key isEqualToString:@"ACTION"]) {
-				nodetype = ACTION;
+			if ([key isEqualToString:@"TAP"]) {
+				nodetype = TAP;
 			}
 			
-			[ActionNode addNode:value atBeat:beat.floatValue withType:nodetype];
+			[self addNode:value atBeat:beat withType:nodetype];
 		}
 	}
 }
