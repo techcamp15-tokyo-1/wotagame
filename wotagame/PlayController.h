@@ -7,9 +7,12 @@
 //
 //	Scene:Playの管理を行う
 
+#import "defines.h"
 #import "cocos2d.h"
 #import <AVFoundation/AVFoundation.h>
 #import "ScoreModel.h"
+
+
 @class PlayLayer;
 
 @interface PlayController : NSObject<
@@ -26,26 +29,15 @@
 //初期化
 +(PlayController *) getInstance;
 
+//----------------------------------------------------------------------------------------
+//ユーザーアクションのハンドラ
+
 //スタートボタンがタップされた
 -(void)btnStartTapped:(id)sender;
 
 //一時停止ボタンがタップされた
 -(void)btnPauseTapped:(id)sender;
-
-//ゲームをスタートするための準備を行う
--(void) initializeToStart;
-
-//ゲームをスタートする
--(void) start;
-
-//ゲームを中止する
--(void) stop;
-
-//一時停止する
--(void) pause;
-
-//最初からやりなおす
--(void) restart;
+//----------------------------------------------------------------------------------------
 
 -(float) getBeat;
 -(NSMutableArray *) getShowNodeList;

@@ -433,6 +433,7 @@
 		EF7176D417C4AC0700901D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF7176F017C4ADB200901D2D /* PlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayLayer.h; sourceTree = "<group>"; };
 		EF7176F117C4ADB200901D2D /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLayer.m; sourceTree = "<group>"; };
+		EFA4B7B617C98C1100B66CA9 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
 		EFD18CB917C72929006E3E34 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cell.plist; path = Resources/cell.plist; sourceTree = "<group>"; };
 		EFD18CBA17C72929006E3E34 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell.png; path = Resources/cell.png; sourceTree = "<group>"; };
 		EFE42F4617C89FAC002AFE8C /* bgm2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgm2.m4a; sourceTree = "<group>"; };
@@ -507,6 +508,7 @@
 				EF39D01017C60630005F1F33 /* ScoreNode.h */,
 				EF39D01117C60630005F1F33 /* ScoreNode.m */,
 				EF65304A17C7CA33005481E9 /* ScoreModel.h */,
+				EFA4B7B617C98C1100B66CA9 /* defines.h */,
 				EF65304B17C7CA33005481E9 /* ScoreModel.m */,
 				EF71754317C4AC0400901D2D /* Resources */,
 				EF71755B17C4AC0400901D2D /* libs */,

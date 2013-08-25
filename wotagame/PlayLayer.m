@@ -34,6 +34,7 @@ PlayController *playController;
 NSMutableArray *tapActionFrames;
 CCAnimation *tapAnimation;
 
+//初期化
 +(CCScene *) scene {
 	CCScene *scene = [CCScene node];
 	PlayLayer *layer = [PlayLayer node];
@@ -75,22 +76,35 @@ CCAnimation *tapAnimation;
 	[layerPause addChild: spritePauseBG];
 	
 	//ポーズボタン
-	btnPause = [CCMenuItemSprite itemWithNormalSprite:[CCSprite  spriteWithSpriteFrameName:@"btnPause.png"] selectedSprite:[CCSprite spriteWithSpriteFrameName:@"btnPause.png"] disabledSprite:[CCSprite spriteWithSpriteFrameName:@"btnPause.png"] target:playController selector:@selector(btnPauseTapped:)];
+	btnPause = [CCMenuItemSprite itemWithNormalSprite:[CCSprite  spriteWithSpriteFrameName:@"btnPause.png"]
+									   selectedSprite:[CCSprite spriteWithSpriteFrameName:@"btnPause.png"]
+									   disabledSprite:[CCSprite spriteWithSpriteFrameName:@"btnPause.png"]
+											   target:playController
+											 selector:@selector(btnPauseTapped:)];
 	btnPause.position = ccp(cx - btnPause.contentSize.width / 2 - 20, cy - btnPause.contentSize.height / 2 - 20);
 	[btnPause setVisible:NO];
 	
 	//スタートボタン
-	btnStart = [CCMenuItemSprite itemWithNormalSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"] selectedSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"] disabledSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"] target:playController selector:@selector(btnStartTapped:)];
+	btnStart = [CCMenuItemSprite itemWithNormalSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"]
+									   selectedSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"]
+									   disabledSprite:[CCSprite spriteWithSpriteFrameName:@"btnPlay.png"]
+											   target:playController
+											 selector:@selector(btnStartTapped:)];
 	btnStart.position = ccp(0, 0);
 		
-	//ラベル
+	//デバッグ用のラベル
 	#ifdef ISDEBUG
-		labelInfo = [CCLabelTTF labelWithString:@"" fontName:FONT_NAME fontSize:12];
-		labelInfo.color = ccc3(255, 255, 255);
-		labelInfo.anchorPoint = ccp(0, 1);
-		labelInfo.position = ccp(0, winSize.height);
-		[labelInfo setHorizontalAlignment:kCCTextAlignmentLeft];
-		[self addChild: labelInfo];
+	labelInfo = [CCLabelTTF labelWithString:@""
+								   fontName:FONT_NAME
+								   fontSize:12
+								 dimensions:winSize
+								 hAlignment:kCCTextAlignmentLeft
+								 vAlignment:kCCTextAlignmentLeft];
+	
+	labelInfo.color = ccc3(0, 64, 128);
+	labelInfo.contentSize = winSize;
+	labelInfo.position = ccp(cx + 10, cy - 10);
+	[self addChild: labelInfo z:100000];
 	#endif
 		
 	//メニュー
@@ -117,7 +131,7 @@ CCAnimation *tapAnimation;
 	CCSprite *sprite;
 	float spriteWidth = winSize.width/3;
 	float spriteHeight = winSize.height/3;
-	for(int i = 0; i < 16; i++) {
+	for(int i = 0; i <= 8; i++) {
 		sprite = [CCSprite spriteWithSpriteFrameName:@"gauge01.png"];
 		sprite.position = ccp(cx + spriteWidth * (i%3-1), cy + spriteHeight * (i/3 - 1));
 		sprite.scaleX = spriteWidth / sprite.contentSize.width;
@@ -129,17 +143,63 @@ CCAnimation *tapAnimation;
 	}
 	
 	[self schedule:@selector(update:)];
-	self.isTouchEnabled = YES;
-
+	self.touchEnabled = YES;
+	
 	return self;
 }
+
+//ゲーム開始準備
+-(void)prepareStart:(ScoreMeta)meta {
+	//	//背景の準備
+	//	if ([[NSFileManager defaultManager] fileExistsAtPath:path_bg]) {
+	//		CCSprite *spriteBG = [CCSprite spriteWithFile:path_bg];
+	//
+	//		CGSize winSize = [[CCDirector sharedDirector] winSize];
+	//		spriteBG.scaleX = winSize.width / spriteBG.contentSize.width + 0.1;
+	//		spriteBG.scaleY = winSize.height / spriteBG.contentSize.height + 0.1;
+	//		[layerBackGround addChild: spriteBG];
+	//	}
+	//	[self initializeToStart];
+	//
+	//	//アニメーションの準備
+	//	tapAnimation = [CCAnimation animationWithSpriteFrames:tapActionFrames delay:60.0f / 149 / 16];
+	//	[tapAnimation retain];
+	//
+	//	//UIの準備
+	//	[btnPause setVisible:YES];
+	//	[btnStart setVisible:NO];
+	//	[layerPause setVisible:NO];
+}
+
+#ifdef ISDEBUG
+//FPS計算
+-(int) getFPS {
+	static double time = 0;
+	static int _fps = 0;
+	static int fps = 0;
+	double _time = [[NSDate date] timeIntervalSince1970];
+	if (_time - time > 1.0) {
+		time = _time;
+		fps = _fps;
+		_fps = 0;
+	}
+	_fps++;
+	return fps;
+}
+
+//情報ラベルを更新する
+-(void) updateInfoLabel {
+	float b = [playController getBeat];
+	[labelInfo setString:[NSString stringWithFormat:@"fps: %d \nbeat:%1.3f \nScore:%d", [self getFPS], b, playController.score]];
+}
+#endif
 
 //シーン更新処理
 -(void) update:(ccTime)dt {
 	
 	#ifdef ISDEBUG
 	//ラベルの更新
-	[self updateInfoLabels];
+	[self updateInfoLabel];
 	#endif
 	
 	if (!playController.isPlaying) return;
@@ -155,6 +215,7 @@ CCAnimation *tapAnimation;
 			CCSprite *cell = cells[cell_id];
 		
 			[cell stopAllActions];
+			
 			[cell runAction:[CCSequence actions:[CCAnimate actionWithAnimation: tapAnimation],[CCCallFuncND actionWithTarget:self selector:@selector(hideActionCell:)	data:nil], nil]];
 		}
 	}
@@ -165,84 +226,46 @@ CCAnimation *tapAnimation;
 	[cell setDisplayFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"gauge01.png"]];
 }
 
-#ifdef ISDEBUG
-//情報ラベルを更新する
--(void) updateInfoLabels {
-	if (!playController.isLoaded) {
-		[labelInfo setString:@"タップで再生開始"];
-		return;
-	}
-	
-	float b = [playController getBeat];
-	[labelInfo setString:[NSString stringWithFormat:@"beat:%1.3f \nScore:%d", b, playController.score]];
+//一時停止
+-(void)pause {
+	[layerPause setVisible:YES];
+	[btnPause setVisible:NO];
 }
-#endif
 
 //イベントハンドラを登録
 -(void) registerWithTouchDispatcher {
 	[[[CCDirector sharedDirector] touchDispatcher] addTargetedDelegate:playController priority:0 swallowsTouches:YES];
 }
 
-////タッチされた
-//- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-//	
-//	CGPoint touchPos = [touch locationInView:[touch view]];
-//	touchPos = [[CCDirector sharedDirector] convertToGL:touchPos];
-//
-//	if (controller.isPlaying) {
-//		//ゲームプレイ中
-//		float beat = [controller getBeat];
-//		
-//		for (CCSprite *cell in cells) {
-//			if(CGRectContainsPoint(cell.boundingBox, touchPos)) {
-//				[controller onTouchBegan:beat ofCellID:cell.tag];
-//				break;
-//			}
-//		}
-//	} else {
-//		if (controller.isLoaded) {
-//			//一時停止時
-//			if(CGRectContainsPoint(layerPause.boundingBox, touchPos)) {
-//				[self restart];
-//			}
-//		} else {
-//			//ゲーム開始時
-//			[self start];
-//		}
-//	}
-//	
-//    return YES;
-//}
-
-//ゲーム開始準備
--(void)initializeToStartWithPath:(NSString *)path_bg {
-	if ([[NSFileManager defaultManager] fileExistsAtPath:path_bg]) {
-		CCSprite *spriteBG = [CCSprite spriteWithFile:path_bg];
-		[layerBackGround addChild: spriteBG];
-	}
-	[self initializeToStart];
-}
--(void)initializeToStart {
-	//アニメーションの準備
-	tapAnimation = [CCAnimation animationWithSpriteFrames:tapActionFrames delay:60.0f / 149 / 16];
-	[tapAnimation retain];
-	
-	//UIの準備
-	[btnPause setVisible:YES];
-	[btnStart setVisible:NO];
-	[layerPause setVisible:NO];
-}
-
-//一時停止
--(void)pause {
-	[layerPause setVisible:YES];
-	[menu setVisible:NO];
-}
-
-//ゲームを最初からやり直す準備
--(void)initializeToRestart {
-	[layerPause setVisible:NO];
-	[menu setVisible:YES];
-}
+//タッチされた
+/*- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+ 
+ CGPoint touchPos = [touch locationInView:[touch view]];
+ touchPos = [[CCDirector sharedDirector] convertToGL:touchPos];
+ 
+ if (controller.isPlaying) {
+ //ゲームプレイ中
+ float beat = [controller getBeat];
+ 
+ for (CCSprite *cell in cells) {
+ if(CGRectContainsPoint(cell.boundingBox, touchPos)) {
+ [controller onTouchBegan:beat ofCellID:cell.tag];
+ break;
+ }
+ }
+ } else {
+ if (controller.isLoaded) {
+ //一時停止時
+ if(CGRectContainsPoint(layerPause.boundingBox, touchPos)) {
+ [self restart];
+ }
+ } else {
+ //ゲーム開始時
+ [self start];
+ }
+ }
+ 
+ return YES;
+ }*/
 
 @end

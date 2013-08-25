@@ -7,6 +7,7 @@
 //
 //	Scene:Playのビュー
 
+#import "defines.h"
 #import "cocos2d.h"
 #import "CCTouchDispatcher.h"
 #import "PlayController.h"
@@ -16,14 +17,10 @@
 
 +(CCScene *) scene;
 
-//ゲームを最初からやり直す準備
--(void)initializeToRestart;
-	
-//一時停止
--(void)pause;
-		
 //ゲーム開始準備
--(void)initializeToStart;
--(void)initializeToStartWithPath:(NSString *)path_bg;
+-(void)prepareStart:(ScoreMeta)meta;
+
+//一時停止する
+-(void)pause;
 
 @end

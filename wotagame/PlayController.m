@@ -7,6 +7,7 @@
 //
 
 #import "PlayController.h"
+#import "PlayLayer.h"
 
 @implementation PlayController
 
@@ -18,6 +19,7 @@ AVAudioPlayer *player;
 ScoreModel *scoreModel;
 ScoreMeta scoreMeta;
 
+//コンストラクタ
 +(PlayController *) getInstance {
 	static PlayController *instance;
 	if (!instance) {
@@ -28,13 +30,17 @@ ScoreMeta scoreMeta;
 	
 	return instance;
 }
-
 -(void) initialize {
 	_isLoaded = NO;
+	LOG(@"HELLO");
 }
+
+//----------------------------------------------------------------------------------------
+//ユーザーアクションのハンドラ
 
 //タッチの基本メソッド　ボタンなどは個別のメソッドを使用
 -(BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+	NSLog(@"!");
 //	float gap = [self getTouchGap:[self getBeat] ofCellID:cellID];
 //	if (gap >= 0.0) {
 //		_score += (int) 100*(1.0 - gap/2.0);
@@ -44,7 +50,7 @@ ScoreMeta scoreMeta;
 
 //スタートボタンがタップされた
 -(void) btnStartTapped:(id)sender {
-	[self initializeToStart];
+	[self prepareStart];
 	[self start];
 }
 
@@ -53,6 +59,8 @@ ScoreMeta scoreMeta;
 	if (!self.isPlaying) return;
 	[self pause];
 }
+
+//----------------------------------------------------------------------------------------
 
 //現在のbeatを経過時間から算出する
 -(float) getBeat {
@@ -70,7 +78,10 @@ ScoreMeta scoreMeta;
 }
 
 //ゲームをスタートするための準備を行う
--(void) initializeToStart {
+-(void) prepareStart {
+	//ScoreMetaの更新
+	scoreMeta = [scoreModel getMeta];
+	
 	//音源読み込む
 	NSString *path_music = [[NSBundle mainBundle] pathForResource:FILE_NAME ofType:FILE_EXT_MUSIC];
 	[self loadMusic:path_music];
@@ -81,8 +92,7 @@ ScoreMeta scoreMeta;
 	
 	_isLoaded = YES;
 	
-	[self.playLayer initializeToStartWithPath:[[NSBundle mainBundle] pathForResource:FILE_NAME ofType:@"png"]];
-	scoreMeta = [scoreModel getMeta];
+	[self.playLayer prepareStart:[scoreModel getMeta]];
 	[self start];
 }
 

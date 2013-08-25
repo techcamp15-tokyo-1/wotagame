@@ -152,6 +152,7 @@ and when to execute the Scenes.
 	
 	/*  OpenGLView. On iOS it is a copy of self.view */
 	CCGLView		*__view;
+
 }
 
 /** returns the cocos2d thread.
@@ -347,6 +348,7 @@ and when to execute the Scenes.
 // helper
 /** creates the Stats labels */
 -(void) createStatsLabel;
+
 @end
 
 // optimization. Should only be used to read it. Never to write it.

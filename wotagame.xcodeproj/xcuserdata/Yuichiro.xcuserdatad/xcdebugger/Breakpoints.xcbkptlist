@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "wotagame/PlayController.m"
-         timestampString = "399024280.930823"
+         timestampString = "399084270.222834"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "65"
-         endingLineNumber = "65"
+         startingLineNumber = "73"
+         endingLineNumber = "73"
          landmarkName = "-getShowNodeList"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,7 +34,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "wotagame/PlayController.m"
-         timestampString = "399020446.27372"
+         timestampString = "399051212.429136"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "10"
@@ -44,25 +44,27 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "wotagame/AppDelegate.h"
-         timestampString = "399026340.388477"
+         filePath = "wotagame/PlayController.m"
+         timestampString = "399084270.222834"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "12"
-         endingLineNumber = "12">
+         startingLineNumber = "41"
+         endingLineNumber = "41"
+         landmarkName = "@implementation PlayController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "wotagame/PlayLayer.m"
-         timestampString = "399026652.476988"
+         filePath = "wotagame/PlayController.m"
+         timestampString = "399084270.222834"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "193"
-         endingLineNumber = "193"
-         landmarkName = "@implementation PlayLayer"
-         landmarkType = "3">
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "-ccTouchBegan:withEvent:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

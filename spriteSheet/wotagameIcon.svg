@@ -89,9 +89,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2013499"
-     inkscape:cx="414.12395"
-     inkscape:cy="782.94873"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="813.47669"
+     inkscape:cy="188.03547"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -194,25 +194,25 @@
        inkscape:export-xdpi="90.061798"
        inkscape:export-ydpi="90.061798" />
     <g
-       id="g10383"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge01.png"
+       id="g4175"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="rect10276"
          d="m 486.06744,452.60839 200.0001,0 0,200 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
     </g>
     <g
-       id="g10386"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge02.png"
+       id="g4171"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 686.06754,452.60839 200.0001,0 0,200 -200.0001,0 z"
          id="path10321"
          inkscape:connector-curvature="0" />
@@ -220,33 +220,33 @@
          inkscape:connector-curvature="0"
          id="path10353"
          d="m 686.06754,640.10839 200.0001,0 0,12.5 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10390"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge03.png"
+       id="g4167"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge03.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10323"
          d="m 886.06764,452.60839 200.00006,0 0,200 -200.00006,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 886.06764,627.60839 200.00006,0 0,25 -200.00006,0 z"
          id="path10355"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10394"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge04.png"
+       id="g4163"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge04.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 1086.0677,452.60839 200.0001,0 0,200 -200.0001,0 z"
          id="path10325"
          inkscape:connector-curvature="0" />
@@ -254,16 +254,16 @@
          inkscape:connector-curvature="0"
          id="path10357"
          d="m 1086.0677,615.10839 200.0001,0 0,37.5 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10402"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge05.png"
+       id="g4178"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 486.06744,652.60839 200.0001,0 0,200 -200.0001,0 z"
          id="path10327"
          inkscape:connector-curvature="0" />
@@ -271,33 +271,33 @@
          inkscape:connector-curvature="0"
          id="path10359"
          d="m 486.06744,802.60839 200.0001,0 0,50 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10406"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge06.png"
+       id="g4186"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge06.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10329"
          d="m 686.06754,652.60839 200.0001,0 0,200 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 686.06754,790.10839 200.0001,0 0,62.5 -200.0001,0 z"
          id="path10361"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10410"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge07.png"
+       id="g4190"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge07.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 886.06764,652.60839 200.00006,0 0,200 -200.00006,0 z"
          id="path10331"
          inkscape:connector-curvature="0" />
@@ -305,50 +305,50 @@
          inkscape:connector-curvature="0"
          id="path10363"
          d="m 886.06764,777.60839 200.00006,0 0,75 -200.00006,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10398"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge08.png"
+       id="g4159"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge08.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10333"
          d="m 1086.0677,652.60839 200.0001,0 0,200 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 1086.0677,752.60839 200.0001,0 0,100 -200.0001,0 z"
          id="path10365"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10414"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge09.png"
+       id="g4182"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge09.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10335"
          d="m 486.06744,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 486.06744,940.1084 200.0001,0 0,112.5 -200.0001,0 z"
          id="path10367"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10418"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge10.png"
+       id="g4198"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge10.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 686.06754,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
          id="path10337"
          inkscape:connector-curvature="0" />
@@ -356,33 +356,33 @@
          inkscape:connector-curvature="0"
          id="path10369"
          d="m 686.06754,927.6084 200.0001,0 0,125 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10422"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge11.png"
+       id="g4194"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge11.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10339"
          d="m 886.06764,852.60839 200.00006,0 0,200.00001 -200.00006,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 886.06764,915.1084 200.00006,0 0,137.5 -200.00006,0 z"
          id="path10371"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10426"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge12.png"
+       id="g4150"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge12.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 1086.0677,852.60839 200.0001,0 0,200.00001 -200.0001,0 z"
          id="path10341"
          inkscape:connector-curvature="0" />
@@ -390,16 +390,16 @@
          inkscape:connector-curvature="0"
          id="path10373"
          d="m 1086.0677,902.6084 200.0001,0 0,150 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10442"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge13.png"
+       id="g4134"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge13.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 486.06744,1052.6084 200.0001,0 0,200 -200.0001,0 z"
          id="path10343"
          inkscape:connector-curvature="0" />
@@ -407,33 +407,33 @@
          inkscape:connector-curvature="0"
          id="path10375"
          d="m 486.06744,1090.1084 200.0001,0 0,162.5 -200.0001,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58431372999999998;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10438"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge14.png"
+       id="g4138"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge14.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10345"
          d="m 686.06754,1052.6084 200.0001,0 0,200 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 686.06754,1077.6084 200.0001,0 0,175 -200.0001,0 z"
          id="path10377"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g10434"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge15.png"
+       id="g4142"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge15.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;stroke:#0c0c0c;stroke-opacity:1;fill-opacity:0"
          d="m 886.06764,1052.6084 200.00006,0 0,200 -200.00006,0 z"
          id="path10347"
          inkscape:connector-curvature="0" />
@@ -441,21 +441,21 @@
          inkscape:connector-curvature="0"
          id="path10379"
          d="m 886.06764,1065.1084 200.00006,0 0,187.5 -200.00006,0 z"
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1" />
     </g>
     <g
-       id="g10430"
-       inkscape:export-filename="/Users/Yuichiro/Desktop/gauge16.png"
+       id="g4146"
+       inkscape:export-filename="/Users/Yuichiro/Desktop/wotagame/spriteSheet/gauge16.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       style="stroke:#000000;stroke-opacity:1">
+       style="stroke:#0c0c0c;stroke-opacity:1">
       <path
          inkscape:connector-curvature="0"
          id="path10349"
          d="m 1086.0677,1052.6084 200.0001,0 0,200 -200.0001,0 z"
-         style="fill:#000000;fill-opacity:0.06274510000000000;fill-rule:nonzero;stroke:#000000;stroke-opacity:1" />
+         style="fill:none;stroke:#0c0c0c;stroke-opacity:1" />
       <path
-         style="fill:#00ffff;fill-opacity:0.58391607000000001;fill-rule:nonzero;stroke:#000000;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:0.58391603999999997;fill-rule:nonzero;stroke:#0c0c0c;stroke-opacity:1"
          d="m 1086.0677,1052.6084 200.0001,0 0,200 -200.0001,0 z"
          id="path10381"
          inkscape:connector-curvature="0" />

@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 wotagineer. All rights reserved.
 //
 //	楽譜のアクションノードモデル
+#import "defines.h"
 
 @interface ScoreNode : NSObject {
 }

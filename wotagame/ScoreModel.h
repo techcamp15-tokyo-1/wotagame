@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 wotagineer. All rights reserved.
 //
 //	楽譜データモデル
-
+#import "defines.h"
 #import "ScoreNode.h"
 
 typedef struct {
