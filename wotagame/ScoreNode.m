@@ -10,13 +10,18 @@
 
 @implementation ScoreNode
 
-+(ScoreNode *) node:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type {
++(ScoreNode *) node:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type {
+	return [self node:cellId atBeat:beat withType:type andValue:nil];
+}
+
++(ScoreNode *) node:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type andValue:(NSString *)value {
 	ScoreNode *node = [[ScoreNode alloc] init];
-	node.value = value;
+	node.cellId = cellId;
 	node.beat = beat;
 	node.type = type;
-	node.isShowed = NO;
+	node.value = [value retain];
 	return node;
 }
+
 
 @end

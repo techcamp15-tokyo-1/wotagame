@@ -1,5 +1,5 @@
 //
-//  ScoreNode.h
+//  ScoreModel.h
 //  wotagame
 //
 //  Created by KikruaYuichirou on 2013/08/22.
@@ -8,13 +8,6 @@
 //	楽譜データモデル
 #import "defines.h"
 #import "ScoreNode.h"
-
-typedef struct {
-	int bpm;
-	float beatOffset;
-	NSString *title;
-	NSString *path;
-} ScoreMeta;
 
 @interface ScoreModel : NSObject {
 }
@@ -26,16 +19,20 @@ typedef struct {
 -(ScoreMeta) getMeta;
 
 //ノードを追加する
--(void) addNode:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type;
+-(void) addNode:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type;
+-(void) addNode:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type andValue:(NSString *)value;
 
-//現在のノードから先を指定した拍分取得する。
--(NSMutableArray *) getFutureNodesAtBeat:(float)beat andDurationfrom:(float)durationBefore to:(float)durationAfter;
+//ノードを削除する
+-(void) deleteNode:(int)cellID;
 
-//楽譜を初期状態（読み込んだ直後の状態）に戻す
--(void) initializeToRestart;
+//各セルが次に行うアクションノードを返す
+-(ScoreNode *) getNextNodes:(int)cellID atBeat:(float)beat_now;
 
 //楽譜を読み込む
--(void) loadScore:(NSString *)path;
+-(BOOL) loadScore:(NSString *)path;
+
+//METAを変更
+-(void) setBpm:(int)value fromBeat:(float)fromBeat;
+-(void) setNodeDuration:(float)value;
 
 @end
-

@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		EF39D00417C59404005F1F33 /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D00317C59404005F1F33 /* PlayController.m */; };
 		EF39D01217C60631005F1F33 /* ScoreNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D01117C60630005F1F33 /* ScoreNode.m */; };
+		EF587A6917C9DB02001BA8FD /* exploding_ring.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF587A6817C9DB02001BA8FD /* exploding_ring.plist */; };
+		EF587A7C17C9E51B001BA8FD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7917C9E51B001BA8FD /* background.png */; };
+		EF587A7D17C9E51B001BA8FD /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7A17C9E51B001BA8FD /* music.m4a */; };
+		EF587A7E17C9E51B001BA8FD /* score.wscore in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7B17C9E51B001BA8FD /* score.wscore */; };
+		EF587A8017CA008B001BA8FD /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7F17CA008B001BA8FD /* sound.wav */; };
 		EF65304C17C7CA33005481E9 /* ScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF65304B17C7CA33005481E9 /* ScoreModel.m */; };
+		EF6CFF5017CC870B00005ABD /* ResultLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF4F17CC870B00005ABD /* ResultLayer.m */; };
+		EF6CFF5317CC900E00005ABD /* ResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF5217CC900E00005ABD /* ResultController.m */; };
 		EF71752F17C4AC0400901D2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71752E17C4AC0400901D2D /* QuartzCore.framework */; };
 		EF71753117C4AC0400901D2D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753017C4AC0400901D2D /* OpenGLES.framework */; };
 		EF71753317C4AC0400901D2D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753217C4AC0400901D2D /* OpenAL.framework */; };
@@ -20,10 +27,6 @@
 		EF71753D17C4AC0400901D2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753C17C4AC0400901D2D /* CoreGraphics.framework */; };
 		EF71753F17C4AC0400901D2D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753E17C4AC0400901D2D /* CoreText.framework */; };
 		EF71754117C4AC0400901D2D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71754017C4AC0400901D2D /* GameKit.framework */; };
-		EF71754517C4AC0400901D2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754417C4AC0400901D2D /* Default.png */; };
-		EF71754717C4AC0400901D2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754617C4AC0400901D2D /* Default@2x.png */; };
-		EF71754917C4AC0400901D2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754817C4AC0400901D2D /* Default-568h@2x.png */; };
-		EF71754B17C4AC0400901D2D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754A17C4AC0400901D2D /* Default-Landscape~ipad.png */; };
 		EF71754D17C4AC0400901D2D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754C17C4AC0400901D2D /* Icon-72.png */; };
 		EF71754F17C4AC0400901D2D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71754E17C4AC0400901D2D /* Icon-Small-50.png */; };
 		EF71755117C4AC0400901D2D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = EF71755017C4AC0400901D2D /* Icon-Small.png */; };
@@ -143,6 +146,13 @@
 		EF7176D217C4AC0700901D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176D117C4AC0700901D2D /* main.m */; };
 		EF7176D517C4AC0700901D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176D417C4AC0700901D2D /* AppDelegate.m */; };
 		EF7176F217C4ADB200901D2D /* PlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7176F117C4ADB200901D2D /* PlayLayer.m */; };
+		EF8A260917CA5C860076BCFE /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260717CA5C860076BCFE /* LaunchImage.png */; };
+		EF8A260A17CA5C860076BCFE /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */; };
+		EF8A260C17CA5C920076BCFE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260B17CA5C920076BCFE /* Default.png */; };
+		EF8A260E17CA5C950076BCFE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260D17CA5C950076BCFE /* Default@2x.png */; };
+		EF8A261017CA799E0076BCFE /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260F17CA799E0076BCFE /* background2.jpg */; };
+		EFB25A8A17CAE2A300F53ED9 /* MusicSelectLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */; };
+		EFB25A8C17CAF53600F53ED9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */; };
 		EFD18CBB17C72929006E3E34 /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CB917C72929006E3E34 /* cell.plist */; };
 		EFD18CBC17C72929006E3E34 /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CBA17C72929006E3E34 /* cell.png */; };
 /* End PBXBuildFile section */
@@ -152,8 +162,17 @@
 		EF39D00317C59404005F1F33 /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
 		EF39D01017C60630005F1F33 /* ScoreNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreNode.h; sourceTree = "<group>"; };
 		EF39D01117C60630005F1F33 /* ScoreNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreNode.m; sourceTree = "<group>"; };
+		EF587A6817C9DB02001BA8FD /* exploding_ring.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exploding_ring.plist; sourceTree = "<group>"; };
+		EF587A7917C9E51B001BA8FD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EF587A7A17C9E51B001BA8FD /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		EF587A7B17C9E51B001BA8FD /* score.wscore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = score.wscore; sourceTree = "<group>"; };
+		EF587A7F17CA008B001BA8FD /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 		EF65304A17C7CA33005481E9 /* ScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreModel.h; sourceTree = "<group>"; };
 		EF65304B17C7CA33005481E9 /* ScoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreModel.m; sourceTree = "<group>"; };
+		EF6CFF4E17CC870B00005ABD /* ResultLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultLayer.h; sourceTree = "<group>"; };
+		EF6CFF4F17CC870B00005ABD /* ResultLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultLayer.m; sourceTree = "<group>"; };
+		EF6CFF5117CC900E00005ABD /* ResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultController.h; sourceTree = "<group>"; };
+		EF6CFF5217CC900E00005ABD /* ResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultController.m; sourceTree = "<group>"; };
 		EF71752B17C4AC0400901D2D /* wotagame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wotagame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF71752E17C4AC0400901D2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EF71753017C4AC0400901D2D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -165,10 +184,6 @@
 		EF71753C17C4AC0400901D2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EF71753E17C4AC0400901D2D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		EF71754017C4AC0400901D2D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		EF71754417C4AC0400901D2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		EF71754617C4AC0400901D2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
-		EF71754817C4AC0400901D2D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		EF71754A17C4AC0400901D2D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		EF71754C17C4AC0400901D2D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
 		EF71754E17C4AC0400901D2D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
 		EF71755017C4AC0400901D2D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
@@ -433,12 +448,17 @@
 		EF7176D417C4AC0700901D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF7176F017C4ADB200901D2D /* PlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayLayer.h; sourceTree = "<group>"; };
 		EF7176F117C4ADB200901D2D /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLayer.m; sourceTree = "<group>"; };
+		EF8A260717CA5C860076BCFE /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		EF8A260B17CA5C920076BCFE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF8A260D17CA5C950076BCFE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF8A260F17CA799E0076BCFE /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
 		EFA4B7B617C98C1100B66CA9 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		EFB25A8817CAE2A200F53ED9 /* MusicSelectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSelectLayer.h; sourceTree = "<group>"; };
+		EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSelectLayer.m; sourceTree = "<group>"; };
+		EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EFD18CB917C72929006E3E34 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cell.plist; path = Resources/cell.plist; sourceTree = "<group>"; };
 		EFD18CBA17C72929006E3E34 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell.png; path = Resources/cell.png; sourceTree = "<group>"; };
-		EFE42F4617C89FAC002AFE8C /* bgm2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgm2.m4a; sourceTree = "<group>"; };
-		EFE42F4717C89FAC002AFE8C /* bgm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgm2.png; sourceTree = "<group>"; };
-		EFE42F4817C89FAC002AFE8C /* bgm2.wmf */ = {isa = PBXFileReference; lastKnownFileType = text; path = bgm2.wmf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,9 +482,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF587A7817C9E51B001BA8FD /* 恋愛サーキュレーション */ = {
+			isa = PBXGroup;
+			children = (
+				EF587A7917C9E51B001BA8FD /* background.png */,
+				EF8A260F17CA799E0076BCFE /* background2.jpg */,
+				EF587A7A17C9E51B001BA8FD /* music.m4a */,
+				EF587A7B17C9E51B001BA8FD /* score.wscore */,
+			);
+			path = "恋愛サーキュレーション";
+			sourceTree = "<group>";
+		};
 		EF71752217C4AC0300901D2D = {
 			isa = PBXGroup;
 			children = (
+				EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */,
+				EF8A260D17CA5C950076BCFE /* Default@2x.png */,
+				EF8A260B17CA5C920076BCFE /* Default.png */,
 				EF71754217C4AC0400901D2D /* wotagame */,
 				EF71752D17C4AC0400901D2D /* Frameworks */,
 				EF71752C17C4AC0400901D2D /* Products */,
@@ -505,11 +539,17 @@
 				EF7176F117C4ADB200901D2D /* PlayLayer.m */,
 				EF39D00217C59404005F1F33 /* PlayController.h */,
 				EF39D00317C59404005F1F33 /* PlayController.m */,
+				EFB25A8817CAE2A200F53ED9 /* MusicSelectLayer.h */,
+				EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */,
+				EF6CFF4E17CC870B00005ABD /* ResultLayer.h */,
+				EF6CFF5117CC900E00005ABD /* ResultController.h */,
+				EF6CFF5217CC900E00005ABD /* ResultController.m */,
+				EF6CFF4F17CC870B00005ABD /* ResultLayer.m */,
 				EF39D01017C60630005F1F33 /* ScoreNode.h */,
 				EF39D01117C60630005F1F33 /* ScoreNode.m */,
 				EF65304A17C7CA33005481E9 /* ScoreModel.h */,
-				EFA4B7B617C98C1100B66CA9 /* defines.h */,
 				EF65304B17C7CA33005481E9 /* ScoreModel.m */,
+				EFA4B7B617C98C1100B66CA9 /* defines.h */,
 				EF71754317C4AC0400901D2D /* Resources */,
 				EF71755B17C4AC0400901D2D /* libs */,
 				EF7176CF17C4AC0700901D2D /* Supporting Files */,
@@ -520,18 +560,16 @@
 		EF71754317C4AC0400901D2D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF71754417C4AC0400901D2D /* Default.png */,
-				EF71754617C4AC0400901D2D /* Default@2x.png */,
-				EF71754817C4AC0400901D2D /* Default-568h@2x.png */,
-				EF71754A17C4AC0400901D2D /* Default-Landscape~ipad.png */,
+				EF587A6817C9DB02001BA8FD /* exploding_ring.plist */,
+				EF587A7817C9E51B001BA8FD /* 恋愛サーキュレーション */,
 				EF71754C17C4AC0400901D2D /* Icon-72.png */,
+				EF587A7F17CA008B001BA8FD /* sound.wav */,
 				EF71754E17C4AC0400901D2D /* Icon-Small-50.png */,
 				EF71755017C4AC0400901D2D /* Icon-Small.png */,
 				EF71755217C4AC0400901D2D /* Icon-Small@2x.png */,
-				EFE42F4617C89FAC002AFE8C /* bgm2.m4a */,
-				EFE42F4717C89FAC002AFE8C /* bgm2.png */,
-				EFE42F4817C89FAC002AFE8C /* bgm2.wmf */,
 				EF71755417C4AC0400901D2D /* Icon.png */,
+				EF8A260717CA5C860076BCFE /* LaunchImage.png */,
+				EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */,
 				EF71755617C4AC0400901D2D /* Icon@2x.png */,
 				EFD18CB917C72929006E3E34 /* cell.plist */,
 				EFD18CBA17C72929006E3E34 /* cell.png */,
@@ -954,10 +992,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF71754517C4AC0400901D2D /* Default.png in Resources */,
-				EF71754717C4AC0400901D2D /* Default@2x.png in Resources */,
-				EF71754917C4AC0400901D2D /* Default-568h@2x.png in Resources */,
-				EF71754B17C4AC0400901D2D /* Default-Landscape~ipad.png in Resources */,
 				EF71754D17C4AC0400901D2D /* Icon-72.png in Resources */,
 				EF71754F17C4AC0400901D2D /* Icon-Small-50.png in Resources */,
 				EF71755117C4AC0400901D2D /* Icon-Small.png in Resources */,
@@ -968,6 +1002,17 @@
 				EF7176B317C4AC0700901D2D /* ChangeLog in Resources */,
 				EFD18CBB17C72929006E3E34 /* cell.plist in Resources */,
 				EFD18CBC17C72929006E3E34 /* cell.png in Resources */,
+				EF587A6917C9DB02001BA8FD /* exploding_ring.plist in Resources */,
+				EF587A7C17C9E51B001BA8FD /* background.png in Resources */,
+				EF587A7D17C9E51B001BA8FD /* music.m4a in Resources */,
+				EF587A7E17C9E51B001BA8FD /* score.wscore in Resources */,
+				EF587A8017CA008B001BA8FD /* sound.wav in Resources */,
+				EF8A260917CA5C860076BCFE /* LaunchImage.png in Resources */,
+				EF8A260A17CA5C860076BCFE /* LaunchImage@2x.png in Resources */,
+				EF8A260C17CA5C920076BCFE /* Default.png in Resources */,
+				EF8A260E17CA5C950076BCFE /* Default@2x.png in Resources */,
+				EF8A261017CA799E0076BCFE /* background2.jpg in Resources */,
+				EFB25A8C17CAF53600F53ED9 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,6 +1137,9 @@
 				EF39D00417C59404005F1F33 /* PlayController.m in Sources */,
 				EF39D01217C60631005F1F33 /* ScoreNode.m in Sources */,
 				EF65304C17C7CA33005481E9 /* ScoreModel.m in Sources */,
+				EFB25A8A17CAE2A300F53ED9 /* MusicSelectLayer.m in Sources */,
+				EF6CFF5017CC870B00005ABD /* ResultLayer.m in Sources */,
+				EF6CFF5317CC900E00005ABD /* ResultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

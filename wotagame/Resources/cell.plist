@@ -7,20 +7,59 @@
             <key>bgPause.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{226,392}}</string>
+                <string>{{1620,2},{226,392}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{226,392}}</string>
                 <key>sourceSize</key>
                 <string>{226,392}</string>
             </dict>
+            <key>btnBackToMenu.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,126},{337,150}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{337,150}}</string>
+                <key>sourceSize</key>
+                <string>{337,150}</string>
+            </dict>
+            <key>btnBackToMenu_tapped.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,126},{337,150}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{337,150}}</string>
+                <key>sourceSize</key>
+                <string>{337,150}</string>
+            </dict>
             <key>btnPause.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{230,293},{86,86}}</string>
+                <string>{{408,278},{86,86}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{86,86}}</string>
+                <key>sourceSize</key>
+                <string>{86,86}</string>
+            </dict>
+            <key>btnPause_tapped.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{963,126},{86,86}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,202 +72,644 @@
             <key>btnPlay.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{230,205},{86,86}}</string>
+                <string>{{1118,82},{500,78}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{86,86}}</string>
+                <string>{{0,0},{500,78}}</string>
                 <key>sourceSize</key>
-                <string>{86,86}</string>
+                <string>{500,78}</string>
+            </dict>
+            <key>btnPlay_tapped.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1118,2},{500,78}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{500,78}}</string>
+                <key>sourceSize</key>
+                <string>{500,78}</string>
+            </dict>
+            <key>btnReset.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,126},{213,150}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{213,150}}</string>
+                <key>sourceSize</key>
+                <string>{213,150}</string>
+            </dict>
+            <key>btnReset_tapped.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,126},{213,150}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{213,150}}</string>
+                <key>sourceSize</key>
+                <string>{213,150}</string>
             </dict>
             <key>gauge01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{611,408},{201,201}}</string>
+                <string>{{406,1743},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,814},{201,201}}</string>
+                <string>{{406,1541},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,611},{201,201}}</string>
+                <string>{{406,1339},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,408},{201,201}}</string>
+                <string>{{1825,836},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{814,205},{201,201}}</string>
+                <string>{{1623,836},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{611,205},{201,201}}</string>
+                <string>{{1421,836},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{408,205},{201,201}}</string>
+                <string>{{608,1137},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{636,2},{201,201}}</string>
+                <string>{{406,1137},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{433,2},{201,201}}</string>
+                <string>{{810,971},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,802},{201,201}}</string>
+                <string>{{1014,970},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,599},{201,201}}</string>
+                <string>{{1219,836},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{230,2},{201,201}}</string>
+                <string>{{204,1694},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{205,396},{201,201}}</string>
+                <string>{{204,1492},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,802},{201,201}}</string>
+                <string>{{204,1290},{200,200}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{201,201}}</string>
+                <string>{{0,0},{200,200}}</string>
                 <key>sourceSize</key>
-                <string>{201,201}</string>
+                <string>{200,200}</string>
             </dict>
             <key>gauge15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,599},{201,201}}</string>
+                <string>{{556,126},{202,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{202,200}}</string>
+                <key>sourceSize</key>
+                <string>{202,200}</string>
+            </dict>
+            <key>gauge16.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1694},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge17.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1492},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge18.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1290},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge19.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1712,634},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge20.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1510,634},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge21.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{204,1088},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge22.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{814,567},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge23.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1088},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge24.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1105,566},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge25.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1457,432},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge26.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{205,684},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge27.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{608,935},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge28.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,684},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge29.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{406,935},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge30.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{812,769},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge31.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1017,768},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge32.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{611,531},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge33.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1308,634},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge34.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{408,531},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge35.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1660,230},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge36.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{902,365},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge37.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{204,886},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge38.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1254,364},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge39.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,886},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gauge40.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{610,733},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gaugeGood.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{408,733},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gaugeGreat.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1457,230},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gaugeMISS.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1254,162},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gaugeOK.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1660,432},{200,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{200,200}}</string>
+                <key>sourceSize</key>
+                <string>{200,200}</string>
+            </dict>
+            <key>gaugePerfect.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{699,329},{201,200}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,200}}</string>
+                <key>sourceSize</key>
+                <string>{201,200}</string>
+            </dict>
+            <key>gauge_tap01.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1051,162},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -238,10 +719,10 @@
                 <key>sourceSize</key>
                 <string>{201,201}</string>
             </dict>
-            <key>gauge16.png</key>
+            <key>gauge_tap02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,396},{201,201}}</string>
+                <string>{{205,481},{201,201}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -250,6 +731,110 @@
                 <string>{{0,0},{201,201}}</string>
                 <key>sourceSize</key>
                 <string>{201,201}</string>
+            </dict>
+            <key>gauge_tap03.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,481},{201,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,201}}</string>
+                <key>sourceSize</key>
+                <string>{201,201}</string>
+            </dict>
+            <key>gauge_tap04.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{496,328},{201,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,201}}</string>
+                <key>sourceSize</key>
+                <string>{201,201}</string>
+            </dict>
+            <key>gauge_tap05.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{205,278},{201,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,201}}</string>
+                <key>sourceSize</key>
+                <string>{201,201}</string>
+            </dict>
+            <key>gauge_tap06.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,278},{201,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,201}}</string>
+                <key>sourceSize</key>
+                <string>{201,201}</string>
+            </dict>
+            <key>gauge_tap07.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{760,126},{201,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,201}}</string>
+                <key>sourceSize</key>
+                <string>{201,201}</string>
+            </dict>
+            <key>labelPauseLogo.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{604,2},{512,122}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{512,122}}</string>
+                <key>sourceSize</key>
+                <string>{512,122}</string>
+            </dict>
+            <key>labelResultLogo.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{600,122}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{600,122}}</string>
+                <key>sourceSize</key>
+                <string>{600,122}</string>
+            </dict>
+            <key>menuPauseBg.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2014,2},{20,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,50}}</string>
+                <key>sourceSize</key>
+                <string>{20,50}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -259,9 +844,9 @@
             <key>realTextureFileName</key>
             <string>cell.png</string>
             <key>size</key>
-            <string>{1024,1024}</string>
+            <string>{2048,2048}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:4b70a063a4158af10ff2ecf75bec4b73:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:56633c1d758486f5da0716e6442856c3:1/1$</string>
             <key>textureFileName</key>
             <string>cell.png</string>
         </dict>

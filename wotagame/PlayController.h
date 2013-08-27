@@ -10,24 +10,32 @@
 #import "defines.h"
 #import "cocos2d.h"
 #import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioServices.h>
 #import "ScoreModel.h"
-
+#import "ResultLayer.h"
 
 @class PlayLayer;
 
 @interface PlayController : NSObject<
 	AVAudioPlayerDelegate,
+	AVAudioSessionDelegate,
 	CCTouchOneByOneDelegate
 > {
 }
 
 @property (retain) PlayLayer *playLayer;
-@property (readonly) bool isPlaying;
-@property (readonly) bool isLoaded;
+@property (readonly) ScoreMeta scoreMeta;
+
+@property (readonly) bool isPause;
+@property (readonly) bool isGameStarted;
+
 @property (readonly) int score;
 
 //初期化
 +(PlayController *) getInstance;
+
+//更新
+-(void) update;
 
 //----------------------------------------------------------------------------------------
 //ユーザーアクションのハンドラ
@@ -37,9 +45,17 @@
 
 //一時停止ボタンがタップされた
 -(void)btnPauseTapped:(id)sender;
+
+//メニューへ戻るボタンがタップされた
+-(void)btnBackToMenuTapped:(id)sender;
+
+//やり直すボタンがタップされた
+-(void)btnRestartTapped:(id)sender;
 //----------------------------------------------------------------------------------------
+//ゲッター
 
 -(float) getBeat;
--(NSMutableArray *) getShowNodeList;
+-(ScoreMeta) getMeta;
+-(float) getCellState:(int)cellID;
 
 @end

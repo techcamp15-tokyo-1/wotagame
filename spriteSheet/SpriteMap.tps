@@ -148,25 +148,70 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>btnPause.png</filename>
+            <filename>bgPause.png</filename>
+            <filename>labelPauseLogo.png</filename>
+            <filename>gauge_tap01.png</filename>
+            <filename>gauge_tap02.png</filename>
+            <filename>gauge_tap03.png</filename>
+            <filename>gauge_tap04.png</filename>
+            <filename>gauge_tap05.png</filename>
+            <filename>gauge_tap06.png</filename>
+            <filename>gauge_tap07.png</filename>
+            <filename>gauge02.png</filename>
             <filename>gauge03.png</filename>
-            <filename>gauge08.png</filename>
-            <filename>gauge13.png</filename>
-            <filename>gauge14.png</filename>
-            <filename>gauge15.png</filename>
-            <filename>gauge16.png</filename>
-            <filename>gauge09.png</filename>
-            <filename>gauge10.png</filename>
-            <filename>gauge11.png</filename>
-            <filename>gauge12.png</filename>
             <filename>gauge04.png</filename>
             <filename>gauge05.png</filename>
             <filename>gauge06.png</filename>
             <filename>gauge07.png</filename>
-            <filename>gauge02.png</filename>
+            <filename>gauge08.png</filename>
+            <filename>gauge09.png</filename>
+            <filename>gauge10.png</filename>
+            <filename>gauge11.png</filename>
+            <filename>gauge12.png</filename>
+            <filename>gauge13.png</filename>
+            <filename>gauge14.png</filename>
+            <filename>gauge15.png</filename>
+            <filename>gauge16.png</filename>
+            <filename>gauge17.png</filename>
+            <filename>gauge18.png</filename>
+            <filename>gauge19.png</filename>
+            <filename>gauge20.png</filename>
+            <filename>gauge21.png</filename>
+            <filename>gauge22.png</filename>
+            <filename>gauge23.png</filename>
+            <filename>gauge24.png</filename>
+            <filename>gauge25.png</filename>
+            <filename>gauge26.png</filename>
+            <filename>gauge27.png</filename>
+            <filename>gauge28.png</filename>
+            <filename>gauge29.png</filename>
+            <filename>gauge30.png</filename>
+            <filename>gauge31.png</filename>
+            <filename>gauge32.png</filename>
+            <filename>gauge33.png</filename>
+            <filename>gauge34.png</filename>
+            <filename>gauge35.png</filename>
+            <filename>gauge36.png</filename>
+            <filename>gauge37.png</filename>
+            <filename>gauge38.png</filename>
+            <filename>gauge39.png</filename>
+            <filename>gauge40.png</filename>
             <filename>gauge01.png</filename>
+            <filename>gaugeGood.png</filename>
+            <filename>gaugeGreat.png</filename>
+            <filename>gaugeMISS.png</filename>
+            <filename>gaugeOK.png</filename>
+            <filename>gaugePerfect.png</filename>
+            <filename>btnBackToMenu.png</filename>
+            <filename>btnReset.png</filename>
+            <filename>btnPause_tapped.png</filename>
+            <filename>btnPause.png</filename>
+            <filename>btnPlay_tapped.png</filename>
             <filename>btnPlay.png</filename>
-            <filename>bgPause.png</filename>
+            <filename>menuPauseBg.png</filename>
+            <filename>btnBackToMenu_tapped.png</filename>
+            <filename>btnReset_tapped.png</filename>
+            <filename>labelResultLogo.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

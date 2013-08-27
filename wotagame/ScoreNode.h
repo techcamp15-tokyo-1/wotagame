@@ -11,18 +11,12 @@
 @interface ScoreNode : NSObject {
 }
 
-@property (retain) NSString *value;
 @property float beat;
+@property int cellId;
 @property enum NODETYPE type;
-@property bool isShowed;
+@property (strong) NSString *value;
 
-+(ScoreNode *) node:(NSString *)value atBeat:(float)beat withType:(enum NODETYPE)type;
++(ScoreNode *) node:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type;
++(ScoreNode *) node:(int)cellId atBeat:(float)beat withType:(enum NODETYPE)type andValue:(NSString *)value;
 
 @end
-
-enum NODETYPE {
-	TAP = 0,
-	BPM,
-	END
-};
-

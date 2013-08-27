@@ -7,63 +7,39 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "wotagame/ScoreModel.m"
-         timestampString = "399016010.863187"
+         filePath = "wotagame/ResultLayer.m"
+         timestampString = "399281715.189037"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "11"
-         endingLineNumber = "11"
-         landmarkName = "@implementation ScoreModel"
-         landmarkType = "3">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "wotagame/PlayController.m"
-         timestampString = "399084270.222834"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
-         landmarkName = "-getShowNodeList"
+         startingLineNumber = "43"
+         endingLineNumber = "43"
+         landmarkName = "-initializeFirst"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "wotagame/PlayController.m"
-         timestampString = "399051212.429136"
+         filePath = "wotagame/ResultLayer.m"
+         timestampString = "399281715.189037"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "10"
-         endingLineNumber = "10">
+         startingLineNumber = "45"
+         endingLineNumber = "45"
+         landmarkName = "-initializeFirst"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "wotagame/PlayController.m"
-         timestampString = "399084270.222834"
+         filePath = "wotagame/ResultLayer.m"
+         timestampString = "399281715.189037"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "41"
-         endingLineNumber = "41"
-         landmarkName = "@implementation PlayController"
-         landmarkType = "3">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "wotagame/PlayController.m"
-         timestampString = "399084270.222834"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "42"
-         endingLineNumber = "42"
-         landmarkName = "-ccTouchBegan:withEvent:"
+         startingLineNumber = "44"
+         endingLineNumber = "44"
+         landmarkName = "-initializeFirst"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
