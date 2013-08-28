@@ -10,13 +10,16 @@
 		EF39D00417C59404005F1F33 /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D00317C59404005F1F33 /* PlayController.m */; };
 		EF39D01217C60631005F1F33 /* ScoreNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39D01117C60630005F1F33 /* ScoreNode.m */; };
 		EF587A6917C9DB02001BA8FD /* exploding_ring.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF587A6817C9DB02001BA8FD /* exploding_ring.plist */; };
-		EF587A7C17C9E51B001BA8FD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7917C9E51B001BA8FD /* background.png */; };
-		EF587A7D17C9E51B001BA8FD /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7A17C9E51B001BA8FD /* music.m4a */; };
-		EF587A7E17C9E51B001BA8FD /* score.wscore in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7B17C9E51B001BA8FD /* score.wscore */; };
-		EF587A8017CA008B001BA8FD /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF587A7F17CA008B001BA8FD /* sound.wav */; };
 		EF65304C17C7CA33005481E9 /* ScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF65304B17C7CA33005481E9 /* ScoreModel.m */; };
 		EF6CFF5017CC870B00005ABD /* ResultLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF4F17CC870B00005ABD /* ResultLayer.m */; };
-		EF6CFF5317CC900E00005ABD /* ResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF5217CC900E00005ABD /* ResultController.m */; };
+		EF6CFF5617CCAF5100005ABD /* ScoreFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF5517CCAF5100005ABD /* ScoreFileManager.m */; };
+		EF6CFF6317CD4FA900005ABD /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF6217CD4FA900005ABD /* ZipArchive.mm */; };
+		EF6CFF6E17CD4FCC00005ABD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF6617CD4FCC00005ABD /* ioapi.c */; };
+		EF6CFF6F17CD4FCC00005ABD /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF6817CD4FCC00005ABD /* mztools.c */; };
+		EF6CFF7017CD4FCC00005ABD /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF6A17CD4FCC00005ABD /* unzip.c */; };
+		EF6CFF7117CD4FCC00005ABD /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EF6CFF6C17CD4FCC00005ABD /* zip.c */; };
+		EF6CFF7317CD538900005ABD /* userSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF6CFF7217CD538900005ABD /* userSettings.plist */; };
+		EF6CFF7717CD57B200005ABD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6CFF7617CD57B200005ABD /* libz.dylib */; };
 		EF71752F17C4AC0400901D2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71752E17C4AC0400901D2D /* QuartzCore.framework */; };
 		EF71753117C4AC0400901D2D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753017C4AC0400901D2D /* OpenGLES.framework */; };
 		EF71753317C4AC0400901D2D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71753217C4AC0400901D2D /* OpenAL.framework */; };
@@ -150,7 +153,11 @@
 		EF8A260A17CA5C860076BCFE /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */; };
 		EF8A260C17CA5C920076BCFE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260B17CA5C920076BCFE /* Default.png */; };
 		EF8A260E17CA5C950076BCFE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260D17CA5C950076BCFE /* Default@2x.png */; };
-		EF8A261017CA799E0076BCFE /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8A260F17CA799E0076BCFE /* background2.jpg */; };
+		EFA8678017CDA0E900A69E67 /* SEPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA8677F17CDA0E900A69E67 /* SEPlayer.m */; };
+		EFA8678317CDA4E800A69E67 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFA8678217CDA4E800A69E67 /* ok.mp3 */; };
+		EFA8678517CDA86000A69E67 /* select.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFA8678417CDA86000A69E67 /* select.mp3 */; };
+		EFA8678717CDCC2E00A69E67 /* scores.zip in Resources */ = {isa = PBXBuildFile; fileRef = EFA8678617CDCC2E00A69E67 /* scores.zip */; };
+		EFA8678917CDD76400A69E67 /* TopMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA8678817CDD76400A69E67 /* TopMenuLayer.m */; };
 		EFB25A8A17CAE2A300F53ED9 /* MusicSelectLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */; };
 		EFB25A8C17CAF53600F53ED9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */; };
 		EFD18CBB17C72929006E3E34 /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD18CB917C72929006E3E34 /* cell.plist */; };
@@ -163,16 +170,25 @@
 		EF39D01017C60630005F1F33 /* ScoreNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreNode.h; sourceTree = "<group>"; };
 		EF39D01117C60630005F1F33 /* ScoreNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreNode.m; sourceTree = "<group>"; };
 		EF587A6817C9DB02001BA8FD /* exploding_ring.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exploding_ring.plist; sourceTree = "<group>"; };
-		EF587A7917C9E51B001BA8FD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		EF587A7A17C9E51B001BA8FD /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
-		EF587A7B17C9E51B001BA8FD /* score.wscore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = score.wscore; sourceTree = "<group>"; };
-		EF587A7F17CA008B001BA8FD /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 		EF65304A17C7CA33005481E9 /* ScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreModel.h; sourceTree = "<group>"; };
 		EF65304B17C7CA33005481E9 /* ScoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreModel.m; sourceTree = "<group>"; };
 		EF6CFF4E17CC870B00005ABD /* ResultLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultLayer.h; sourceTree = "<group>"; };
 		EF6CFF4F17CC870B00005ABD /* ResultLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultLayer.m; sourceTree = "<group>"; };
-		EF6CFF5117CC900E00005ABD /* ResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultController.h; sourceTree = "<group>"; };
-		EF6CFF5217CC900E00005ABD /* ResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultController.m; sourceTree = "<group>"; };
+		EF6CFF5417CCAF5100005ABD /* ScoreFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreFileManager.h; sourceTree = "<group>"; };
+		EF6CFF5517CCAF5100005ABD /* ScoreFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreFileManager.m; sourceTree = "<group>"; };
+		EF6CFF6117CD4FA900005ABD /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = "恋愛サーキュレーション/ZipArchive/ZipArchive.h"; sourceTree = "<group>"; };
+		EF6CFF6217CD4FA900005ABD /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZipArchive.mm; path = "恋愛サーキュレーション/ZipArchive/ZipArchive.mm"; sourceTree = "<group>"; };
+		EF6CFF6517CD4FCC00005ABD /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		EF6CFF6617CD4FCC00005ABD /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		EF6CFF6717CD4FCC00005ABD /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		EF6CFF6817CD4FCC00005ABD /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		EF6CFF6917CD4FCC00005ABD /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		EF6CFF6A17CD4FCC00005ABD /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		EF6CFF6B17CD4FCC00005ABD /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		EF6CFF6C17CD4FCC00005ABD /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		EF6CFF6D17CD4FCC00005ABD /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		EF6CFF7217CD538900005ABD /* userSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userSettings.plist; sourceTree = "<group>"; };
+		EF6CFF7617CD57B200005ABD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EF71752B17C4AC0400901D2D /* wotagame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wotagame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF71752E17C4AC0400901D2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EF71753017C4AC0400901D2D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -452,8 +468,14 @@
 		EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		EF8A260B17CA5C920076BCFE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EF8A260D17CA5C950076BCFE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		EF8A260F17CA799E0076BCFE /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
 		EFA4B7B617C98C1100B66CA9 /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		EFA8677E17CDA0E800A69E67 /* SEPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPlayer.h; sourceTree = "<group>"; };
+		EFA8677F17CDA0E900A69E67 /* SEPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPlayer.m; sourceTree = "<group>"; };
+		EFA8678217CDA4E800A69E67 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		EFA8678417CDA86000A69E67 /* select.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = select.mp3; sourceTree = "<group>"; };
+		EFA8678617CDCC2E00A69E67 /* scores.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = scores.zip; sourceTree = "<group>"; };
+		EFA8678817CDD76400A69E67 /* TopMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuLayer.m; sourceTree = "<group>"; };
+		EFA8678A17CDD76C00A69E67 /* TopMenuLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopMenuLayer.h; sourceTree = "<group>"; };
 		EFB25A8817CAE2A200F53ED9 /* MusicSelectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSelectLayer.h; sourceTree = "<group>"; };
 		EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSelectLayer.m; sourceTree = "<group>"; };
 		EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -466,6 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6CFF7717CD57B200005ABD /* libz.dylib in Frameworks */,
 				EF71752F17C4AC0400901D2D /* QuartzCore.framework in Frameworks */,
 				EF71753117C4AC0400901D2D /* OpenGLES.framework in Frameworks */,
 				EF71753317C4AC0400901D2D /* OpenAL.framework in Frameworks */,
@@ -482,20 +505,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF587A7817C9E51B001BA8FD /* 恋愛サーキュレーション */ = {
+		EF6CFF6417CD4FCC00005ABD /* minizip */ = {
 			isa = PBXGroup;
 			children = (
-				EF587A7917C9E51B001BA8FD /* background.png */,
-				EF8A260F17CA799E0076BCFE /* background2.jpg */,
-				EF587A7A17C9E51B001BA8FD /* music.m4a */,
-				EF587A7B17C9E51B001BA8FD /* score.wscore */,
+				EF6CFF6517CD4FCC00005ABD /* crypt.h */,
+				EF6CFF6617CD4FCC00005ABD /* ioapi.c */,
+				EF6CFF6717CD4FCC00005ABD /* ioapi.h */,
+				EF6CFF6817CD4FCC00005ABD /* mztools.c */,
+				EF6CFF6917CD4FCC00005ABD /* mztools.h */,
+				EF6CFF6A17CD4FCC00005ABD /* unzip.c */,
+				EF6CFF6B17CD4FCC00005ABD /* unzip.h */,
+				EF6CFF6C17CD4FCC00005ABD /* zip.c */,
+				EF6CFF6D17CD4FCC00005ABD /* zip.h */,
 			);
-			path = "恋愛サーキュレーション";
+			name = minizip;
+			path = "恋愛サーキュレーション/ZipArchive/minizip";
 			sourceTree = "<group>";
 		};
 		EF71752217C4AC0300901D2D = {
 			isa = PBXGroup;
 			children = (
+				EF6CFF7617CD57B200005ABD /* libz.dylib */,
 				EFB25A8B17CAF53600F53ED9 /* Default-568h@2x.png */,
 				EF8A260D17CA5C950076BCFE /* Default@2x.png */,
 				EF8A260B17CA5C920076BCFE /* Default.png */,
@@ -535,20 +565,26 @@
 			children = (
 				EF7176D317C4AC0700901D2D /* AppDelegate.h */,
 				EF7176D417C4AC0700901D2D /* AppDelegate.m */,
+				EFA8678A17CDD76C00A69E67 /* TopMenuLayer.h */,
+				EFA8678817CDD76400A69E67 /* TopMenuLayer.m */,
+				EFB25A8817CAE2A200F53ED9 /* MusicSelectLayer.h */,
+				EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */,
 				EF7176F017C4ADB200901D2D /* PlayLayer.h */,
 				EF7176F117C4ADB200901D2D /* PlayLayer.m */,
 				EF39D00217C59404005F1F33 /* PlayController.h */,
 				EF39D00317C59404005F1F33 /* PlayController.m */,
-				EFB25A8817CAE2A200F53ED9 /* MusicSelectLayer.h */,
-				EFB25A8917CAE2A300F53ED9 /* MusicSelectLayer.m */,
 				EF6CFF4E17CC870B00005ABD /* ResultLayer.h */,
-				EF6CFF5117CC900E00005ABD /* ResultController.h */,
-				EF6CFF5217CC900E00005ABD /* ResultController.m */,
 				EF6CFF4F17CC870B00005ABD /* ResultLayer.m */,
 				EF39D01017C60630005F1F33 /* ScoreNode.h */,
 				EF39D01117C60630005F1F33 /* ScoreNode.m */,
+				EF6CFF5417CCAF5100005ABD /* ScoreFileManager.h */,
+				EF6CFF5517CCAF5100005ABD /* ScoreFileManager.m */,
 				EF65304A17C7CA33005481E9 /* ScoreModel.h */,
 				EF65304B17C7CA33005481E9 /* ScoreModel.m */,
+				EFA8677E17CDA0E800A69E67 /* SEPlayer.h */,
+				EFA8677F17CDA0E900A69E67 /* SEPlayer.m */,
+				EF6CFF6117CD4FA900005ABD /* ZipArchive.h */,
+				EF6CFF6217CD4FA900005ABD /* ZipArchive.mm */,
 				EFA4B7B617C98C1100B66CA9 /* defines.h */,
 				EF71754317C4AC0400901D2D /* Resources */,
 				EF71755B17C4AC0400901D2D /* libs */,
@@ -561,12 +597,14 @@
 			isa = PBXGroup;
 			children = (
 				EF587A6817C9DB02001BA8FD /* exploding_ring.plist */,
-				EF587A7817C9E51B001BA8FD /* 恋愛サーキュレーション */,
 				EF71754C17C4AC0400901D2D /* Icon-72.png */,
-				EF587A7F17CA008B001BA8FD /* sound.wav */,
 				EF71754E17C4AC0400901D2D /* Icon-Small-50.png */,
+				EFA8678217CDA4E800A69E67 /* ok.mp3 */,
+				EFA8678417CDA86000A69E67 /* select.mp3 */,
 				EF71755017C4AC0400901D2D /* Icon-Small.png */,
+				EF6CFF7217CD538900005ABD /* userSettings.plist */,
 				EF71755217C4AC0400901D2D /* Icon-Small@2x.png */,
+				EFA8678617CDCC2E00A69E67 /* scores.zip */,
 				EF71755417C4AC0400901D2D /* Icon.png */,
 				EF8A260717CA5C860076BCFE /* LaunchImage.png */,
 				EF8A260817CA5C860076BCFE /* LaunchImage@2x.png */,
@@ -584,6 +622,7 @@
 			children = (
 				EF71768617C4AC0700901D2D /* LICENSE_cocos2d.txt */,
 				EF71769C17C4AC0700901D2D /* LICENSE_CocosDenshion.txt */,
+				EF6CFF6417CD4FCC00005ABD /* minizip */,
 				EF7176CE17C4AC0700901D2D /* LICENSE_Kazmath.txt */,
 				EF71755C17C4AC0400901D2D /* cocos2d */,
 				EF71768717C4AC0700901D2D /* CocosDenshion */,
@@ -1003,16 +1042,15 @@
 				EFD18CBB17C72929006E3E34 /* cell.plist in Resources */,
 				EFD18CBC17C72929006E3E34 /* cell.png in Resources */,
 				EF587A6917C9DB02001BA8FD /* exploding_ring.plist in Resources */,
-				EF587A7C17C9E51B001BA8FD /* background.png in Resources */,
-				EF587A7D17C9E51B001BA8FD /* music.m4a in Resources */,
-				EF587A7E17C9E51B001BA8FD /* score.wscore in Resources */,
-				EF587A8017CA008B001BA8FD /* sound.wav in Resources */,
 				EF8A260917CA5C860076BCFE /* LaunchImage.png in Resources */,
 				EF8A260A17CA5C860076BCFE /* LaunchImage@2x.png in Resources */,
 				EF8A260C17CA5C920076BCFE /* Default.png in Resources */,
 				EF8A260E17CA5C950076BCFE /* Default@2x.png in Resources */,
-				EF8A261017CA799E0076BCFE /* background2.jpg in Resources */,
 				EFB25A8C17CAF53600F53ED9 /* Default-568h@2x.png in Resources */,
+				EF6CFF7317CD538900005ABD /* userSettings.plist in Resources */,
+				EFA8678317CDA4E800A69E67 /* ok.mp3 in Resources */,
+				EFA8678517CDA86000A69E67 /* select.mp3 in Resources */,
+				EFA8678717CDCC2E00A69E67 /* scores.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,7 +1177,14 @@
 				EF65304C17C7CA33005481E9 /* ScoreModel.m in Sources */,
 				EFB25A8A17CAE2A300F53ED9 /* MusicSelectLayer.m in Sources */,
 				EF6CFF5017CC870B00005ABD /* ResultLayer.m in Sources */,
-				EF6CFF5317CC900E00005ABD /* ResultController.m in Sources */,
+				EF6CFF5617CCAF5100005ABD /* ScoreFileManager.m in Sources */,
+				EF6CFF6317CD4FA900005ABD /* ZipArchive.mm in Sources */,
+				EF6CFF6E17CD4FCC00005ABD /* ioapi.c in Sources */,
+				EF6CFF6F17CD4FCC00005ABD /* mztools.c in Sources */,
+				EF6CFF7017CD4FCC00005ABD /* unzip.c in Sources */,
+				EF6CFF7117CD4FCC00005ABD /* zip.c in Sources */,
+				EFA8678017CDA0E900A69E67 /* SEPlayer.m in Sources */,
+				EFA8678917CDD76400A69E67 /* TopMenuLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

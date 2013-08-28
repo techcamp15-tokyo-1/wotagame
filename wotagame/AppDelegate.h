@@ -10,6 +10,7 @@
 #import "defines.h"
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
+#import "SEPlayer.h"
 
 // Added only for iOS 6 support
 @interface MyNavigationController : UINavigationController <CCDirectorDelegate>

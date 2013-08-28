@@ -53,6 +53,7 @@ NSMutableArray *resultFrames;
 	
 	playController = [PlayController getInstance];
 	[playController setPlayLayer:layer];
+	[playController initialize];
 
 	[layer initializeFirst];
 	[scene addChild: layer];
@@ -185,7 +186,7 @@ NSMutableArray *resultFrames;
 											 selector:@selector(btnStartTapped:)];
 	btnStart.scale = winSize.width / btnStart.contentSize.width;
 	btnStart.position = ccp(0, 0);
-	
+
 	//メニュー
 	menu2 = [CCMenu menuWithItems:
 			 btnStart, nil];
@@ -336,7 +337,7 @@ NSMutableArray *resultFrames;
 //背景の準備
 -(void)setBackGround:(NSString *)path {
 	CGSize winSize = [[CCDirector sharedDirector] winSize];
-
+	
 	CCSprite *spriteBG = [[CCSprite alloc] init];
 	[layerBackGround addChild: spriteBG];
 	[spriteBG removeFromParent];
@@ -410,6 +411,8 @@ NSMutableArray *resultFrames;
 	[layerFront setVisible:NO];
 	[layerStart setVisible:NO];
 	[layerPause setVisible:NO];
+	[[[CCDirector sharedDirector] touchDispatcher] removeAllDelegates];
+	[self unscheduleAllSelectors];
 }
 //一時停止
 -(void)pause {

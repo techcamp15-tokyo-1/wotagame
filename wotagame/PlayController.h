@@ -13,6 +13,7 @@
 #import <AudioToolbox/AudioServices.h>
 #import "ScoreModel.h"
 #import "ResultLayer.h"
+#import "MusicSelectLayer.h"
 
 @class PlayLayer;
 
@@ -33,6 +34,7 @@
 
 //初期化
 +(PlayController *) getInstance;
+-(void) initialize;
 
 //更新
 -(void) update;
@@ -51,6 +53,7 @@
 
 //やり直すボタンがタップされた
 -(void)btnRestartTapped:(id)sender;
+
 //----------------------------------------------------------------------------------------
 //ゲッター
 
@@ -58,4 +61,7 @@
 -(ScoreMeta) getMeta;
 -(float) getCellState:(int)cellID;
 
+//----------------------------------------------------------------------------------------
+//状態変更
+-(void) stop;
 @end

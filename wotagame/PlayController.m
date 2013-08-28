@@ -20,27 +20,20 @@ ScoreModel *scoreModel;
 	static PlayController *instance;
 	if (!instance) {
 		instance = [[PlayController alloc] init];
-		[instance initialize];
 	}
 	return instance;
 }
 -(void) initialize {
-	AVAudioSession *audioSession = [AVAudioSession sharedInstance]; [audioSession setDelegate:self];
-	[audioSession setCategory:AVAudioSessionCategoryAmbient error:nil];
-	[audioSession setActive:YES error:nil];
-	NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"sound" ofType:@"wav"];
-	NSURL *file = [[[NSURL alloc] initFileURLWithPath:soundPath] autorelease];
-	playerSE = [[AVAudioPlayer alloc] initWithContentsOfURL:file error:nil];
-	[playerSE setDelegate:self];
-	[playerSE prepareToPlay];
-	
 	scoreModel = [ScoreModel getInstance];
-	[scoreModel loadScore:FILE_NAME];
 	
 	_isGameStarted = NO;
 	_isPause = NO;
 	_score = 0;
+	player = NULL;
 	
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *fileName = [defaults objectForKey:KEY_USER_SELECTED_MUSIC];
+	[scoreModel loadScore:fileName];
 	[self loadMusic];
 }
 
@@ -73,36 +66,35 @@ ScoreModel *scoreModel;
 	//メタ情報の更新
 	float beat_now = [self getBeat];
 	ScoreNode *node;
-	do {
+	while(_isGameStarted && !_isPause) {
 		node = [scoreModel getNextNodes:CELLID_METACELL atBeat:beat_now];
-		if (node.beat <= beat_now) {
-			switch (node.type) {
-				case NODETYPE_BPM:
-					[scoreModel setBpm:node.value.intValue fromBeat:beat_now];
-					break;
-					
-				case NODETYPE_BACKGROUND:
-					LOG(@"背景変更 is 未実装 まだ");
-					break;
-					
-				case NODETYPE_SPARK:
-					[self.playLayer setEffectParticle:node.value.intValue];
-					break;
-					
-				case NODETYPE_NODEDURATION:
-					[scoreModel setNodeDuration: node.value.floatValue];
-					break;
-					
-				case NODETYPE_END:
-					[self finish];
-					break;
-					
-				default:
-					break;
-			}
-			[scoreModel deleteNode:CELLID_METACELL];
+		if (node.beat > beat_now) break;
+		switch (node.type) {
+			case NODETYPE_BPM:
+				[scoreModel setBpm:node.value.intValue fromBeat:beat_now];
+				break;
+				
+			case NODETYPE_BACKGROUND:
+				LOG(@"背景変更 is 未実装 まだ");
+				break;
+				
+			case NODETYPE_SPARK:
+				[self.playLayer setEffectParticle:node.value.intValue];
+				break;
+				
+			case NODETYPE_NODEDURATION:
+				[scoreModel setNodeDuration: node.value.floatValue];
+				break;
+				
+			case NODETYPE_END:
+				[self finish];
+				break;
+				
+			default:
+				break;
 		}
-	} while (node.beat <= beat_now);
+		[scoreModel deleteNode:CELLID_METACELL];
+	}
 }
 
 //----------------------------------------------------------------------------------------
@@ -156,19 +148,30 @@ ScoreModel *scoreModel;
 
 //一時停止ボタンがタップされた
 -(void) btnPauseTapped:(id)sender {
+	[SEPlayer play:SE_TYPE_SELECT];
 	[self pause];
 }
 
 //メニューへ戻るボタンがタップされた
 -(void)btnBackToMenuTapped:(id)sender {
-	exit(1);
+	[SEPlayer play:SE_TYPE_OK];
+	[self.playLayer finish];
+	
+	CCScene *scene = [MusicSelectLayer scene];
+	id transition = [CCTransitionFade transitionWithDuration:TRANSITION_DURATION_TIME scene:scene];
+	[[CCDirector sharedDirector] replaceScene:transition];
 }
 
 //やり直すボタンがタップされた
 -(void)btnRestartTapped:(id)sender {
-	[player stop];
-	[self.playLayer initialize];
-	[self initialize];
+	[SEPlayer play:SE_TYPE_OK];
+
+	[self stop];
+	[self.playLayer finish];
+
+	CCScene *scene = [PlayLayer scene];
+	id transition = [CCTransitionFade transitionWithDuration:TRANSITION_DURATION_TIME scene:scene];
+	[[CCDirector sharedDirector] replaceScene:transition];
 }
 //----------------------------------------------------------------------------------------
 
@@ -209,12 +212,12 @@ ScoreModel *scoreModel;
 }
 
 //----------------------------------------------------------------------------------------
-
 //ゲームをスタートする
 -(void) start {
 	[self.playLayer prepareStart];
 	_score = 0;
 
+	[player setVolume:1.0];
 	[player play];
 	_isGameStarted = YES;
 }
@@ -222,6 +225,7 @@ ScoreModel *scoreModel;
 //ゲームを中止する
 -(void) stop {
 	[player stop];
+	[player dealloc];
 	_isGameStarted = NO;
 }
 
@@ -234,9 +238,13 @@ ScoreModel *scoreModel;
 
 //ゲーム終了し、結果画面へいく
 -(void) finish {
-	player.volume *= 0.6;
+	_isPause = YES;
+	[self.playLayer finish];
+
+	[player setVolume:player.volume * 0.4];
+
 	CCScene *scene = [ResultLayer scene];
-	id transition = [CCTransitionCrossFade transitionWithDuration:0.5f scene:scene];
+	id transition = [CCTransitionCrossFade transitionWithDuration:TRANSITION_DURATION_TIME scene:scene];
 	[[CCDirector sharedDirector] replaceScene:transition];
 }
 

@@ -43,7 +43,6 @@
 //----------------------------------------------------------------------------------------
 #define FILENAME_SCORE @"score.wscore"
 #define FONT_NAME @"Arial Rounded MT Bold"
-#define FILE_NAME @"恋愛サーキュレーション"
 
 #define CHARACODE_TYPE_COMMENT 35	// #
 #define CHARACODE_TYPE_META 37		// %
@@ -55,7 +54,13 @@
 #define BORDERLINE_GREAT 0.55
 #define BORDERLINE_OK 0.75
 
+#define TRANSITION_DURATION_TIME 0.7f
 #define CELLID_METACELL 9
+
+#define USER_SETTING @"userSettings"
+
+#define KEY_INSTALLED_PRESET_FILES @"installedPresetFiles"
+#define KEY_USER_SELECTED_MUSIC @"userSelectedMusic"
 
 typedef struct {
 	int bpm;
@@ -63,6 +68,7 @@ typedef struct {
 	float beatOffset;
 	float nodeDuration;
 	NSString *title;
+	NSString *scoreName;
 	NSString *scorePath;
 	NSString *musicPath;
 	NSString *backgroundPath;
@@ -96,6 +102,13 @@ enum layerZindex {
 	Z_Pause,
 	Z_Result,
 };
+
+enum SE_TYPE {
+	SE_TYPE_SELECT,
+	SE_TYPE_OK,
+	SE_TYPE_CANCEL
+};
+
 
 //----------------------------------------------------------------------------------------
 

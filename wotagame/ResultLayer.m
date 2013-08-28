@@ -15,6 +15,7 @@ CCLayer *layerBackGround;
 CCLayer *layerResult;
 	CCLabelTTF *labelResult;
 	CCSprite *labelResultLogo;
+	UIButton *btnBackToMenu;
 
 PlayController *playController;
 
@@ -40,8 +41,6 @@ CCLabelTTF *labelInfo;
 	CGSize winSize = [[CCDirector sharedDirector] winSize];
 	float cx = winSize.width/2;
 	float cy = winSize.height/2;
-	float spriteWidth;
-	float spriteHeight;
 	
 	//---------------------------------------------------------------------------------------------------------
 	//背景レイヤー
@@ -50,7 +49,6 @@ CCLabelTTF *labelInfo;
 	layerBackGround.scale = min(winSize.width / layerBackGround.contentSize.width, winSize.height / layerBackGround.contentSize.height);
 	[self addChild:layerBackGround z: Z_BackGround];
 	
-
 	NSString *path = [playController getMeta].backgroundPath;
 	CCSprite *spriteBG = [[CCSprite alloc] init];
 	[layerBackGround addChild: spriteBG];
@@ -93,6 +91,14 @@ CCLabelTTF *labelInfo;
 	labelResult.position = ccp(0, 0);
 	[layerResult addChild:labelResult];
 	
+	//戻る
+	UIView *view = [CCDirector sharedDirector].view;
+	CGRect viewRect = [view bounds];
+	btnBackToMenu = [[UIButton alloc] initWithFrame:CGRectMake(0, viewRect.size.height/2, viewRect.size.width, viewRect.size.height/2)];
+	[btnBackToMenu addTarget:self action:@selector(btnBackToMenuTapped) forControlEvents:UIControlEventTouchUpInside];
+	[btnBackToMenu setTitle:@"メニューへ戻る" forState:UIControlStateNormal];
+	[view addSubview:btnBackToMenu];
+
 	//---------------------------------------------------------------------------------------------------------
 	//デバッグ用のラベル
 #ifdef ISDEBUG
@@ -110,6 +116,15 @@ CCLabelTTF *labelInfo;
 #endif
 	
 	return self;
+}
+-(void) btnBackToMenuTapped {
+	[SEPlayer play:SE_TYPE_OK];
+	[btnBackToMenu removeFromSuperview];
+	[playController stop];
+	
+	CCScene *scene = [MusicSelectLayer scene];
+	id transition = [CCTransitionFade transitionWithDuration:1.0f scene:scene];
+	[[CCDirector sharedDirector] replaceScene:transition];
 }
 
 @end

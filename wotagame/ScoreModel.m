@@ -80,13 +80,13 @@ static NSMutableArray *nodeList_forScore;	//採点用ノード
 -(BOOL) loadScore:(NSString *)scoreName {
 	NSString *text;
 
-	LOG(@"DEBUG ONLY");
-	NSString *scorePath = [[NSBundle mainBundle] pathForResource:@"score" ofType:@"wscore"];
-	//NSString *scorePath = [NSString stringWithFormat:@"%@/scores/%@/%@", NSHomeDirectory(), scoreName, FILENAME_SCORE];
+	NSString *scorePath = [NSString stringWithFormat:@"%@/Library/Cache/scores/%@/%@", NSHomeDirectory(), scoreName, FILENAME_SCORE];
 	
 	text = [NSString stringWithContentsOfFile:scorePath encoding:NSUTF8StringEncoding error:nil];
-
+	
 	meta.scorePath = [scorePath retain];
+	meta.scoreName = [scoreName retain];
+	
 	meta.nodeDuration = 0.75f;
 	
 	//配列初期化
@@ -149,20 +149,14 @@ static NSMutableArray *nodeList_forScore;	//採点用ノード
 	}
 	if ([key isEqualToString:@"%MUSIC"]) {
 		
-		LOG(@"DEBUG ONLY");
-		NSArray *val_str = [val componentsSeparatedByString:@"."];
-		meta.musicPath = [[[NSBundle mainBundle] pathForResource:val_str[0] ofType:val_str[1]] retain];
-		//meta.musicPath = [[NSString stringWithFormat:@"%@/scores/%@/%@", NSHomeDirectory(), scoreName, val] retain];
+		meta.musicPath = [[NSString stringWithFormat:@"%@/Library/Cache/scores/%@/%@", NSHomeDirectory(), meta.scoreName, val] retain];
 		
 		LOG(meta.musicPath);
 		return;
 	}
 	if ([key isEqualToString:@"%BACKGROUND"]) {
 		
-		LOG(@"DEBUG ONLY");
-		NSArray *val_str = [val componentsSeparatedByString:@"."];
-		meta.backgroundPath = [[[NSBundle mainBundle] pathForResource:val_str[0] ofType:val_str[1]] retain];
-		//meta.backgroundPath = [[NSString stringWithFormat:@"%@/scores/%@/%@", NSHomeDirectory(), scoreName, val] retain];
+		meta.backgroundPath = [[NSString stringWithFormat:@"%@/Library/Cache/scores/%@/%@", NSHomeDirectory(), meta.scoreName, val] retain];
 		
 		LOG(meta.backgroundPath);
 		return;

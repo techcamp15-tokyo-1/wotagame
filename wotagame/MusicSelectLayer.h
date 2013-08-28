@@ -7,9 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 #import "cocos2d.h"
+#import "defines.h"
+#import "PlayController.h"
+#import "PlayLayer.h"
+#import "ScoreFileManager.h"
+#import "ScoreModel.h"
+#import "SEPlayer.h"
+#import "TopMenuLayer.h"
 
-@interface MusicSelectLayer : CCLayer {
+@interface MusicSelectLayer : CCLayer <
+	UITableViewDelegate
+> {
 }
+
++(CCScene *) scene;
 
 @end
