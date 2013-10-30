@@ -18,7 +18,7 @@
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
-        <uint>72</uint>
+        <uint>57</uint>
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
@@ -40,7 +40,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -50,18 +50,18 @@
         <key>textureFormat</key>
         <enum type="SettingsBase::TextureFormat">png</enum>
         <key>borderPadding</key>
-        <uint>2</uint>
+        <uint>0</uint>
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>4096</int>
             <key>height</key>
-            <int>2048</int>
+            <int>4096</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>-1</int>
+            <int>4096</int>
             <key>height</key>
             <int>-1</int>
         </QSize>
@@ -126,7 +126,7 @@
             <string></string>
         </struct>
         <key>autoAliasEnabled</key>
-        <true/>
+        <false/>
         <key>trimSpriteNames</key>
         <false/>
         <key>globalSpriteSettings</key>
@@ -142,7 +142,7 @@
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>heuristicMask</key>
             <false/>
         </struct>
@@ -150,13 +150,6 @@
         <array>
             <filename>bgPause.png</filename>
             <filename>labelPauseLogo.png</filename>
-            <filename>gauge_tap01.png</filename>
-            <filename>gauge_tap02.png</filename>
-            <filename>gauge_tap03.png</filename>
-            <filename>gauge_tap04.png</filename>
-            <filename>gauge_tap05.png</filename>
-            <filename>gauge_tap06.png</filename>
-            <filename>gauge_tap07.png</filename>
             <filename>gauge02.png</filename>
             <filename>gauge03.png</filename>
             <filename>gauge04.png</filename>
@@ -206,12 +199,29 @@
             <filename>btnReset.png</filename>
             <filename>btnPause_tapped.png</filename>
             <filename>btnPause.png</filename>
+            <filename>labelResultLogo.png</filename>
+            <filename>GAMESTART2.png</filename>
+            <filename>MOVIE2.png</filename>
+            <filename>RANKING2.png</filename>
+            <filename>SETTING2.png</filename>
+            <filename>logoAction.png</filename>
+            <filename>btnBackToTitle.png</filename>
+            <filename>btnGameStart.png</filename>
             <filename>btnPlay_tapped.png</filename>
             <filename>btnPlay.png</filename>
-            <filename>menuPauseBg.png</filename>
+            <filename>btnTweet.png</filename>
+            <filename>locked.png</filename>
+            <filename>GAMESTART2_tapped.png</filename>
+            <filename>MOVIE2_tapped.png</filename>
+            <filename>RANKING2_tapped.png</filename>
+            <filename>SETTING2_tapped.png</filename>
             <filename>btnBackToMenu_tapped.png</filename>
+            <filename>btnBackToTitle_tapped.png</filename>
             <filename>btnReset_tapped.png</filename>
-            <filename>labelResultLogo.png</filename>
+            <filename>btnStart.png</filename>
+            <filename>GAMESTART_tapped.png</filename>
+            <filename>labelPauseTitle.png</filename>
+            <filename>btnTweet_tapped.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

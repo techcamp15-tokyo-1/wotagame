@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>actionName</key>
+		<string>ケチャ</string>
+		<key>actionFileMaskName</key>
+		<string>ケチャ%d.png</string>
+		<key>beat</key>
+		<integer>4</integer>
+		<key>frameIdFrom</key>
+		<integer>4</integer>
+		<key>frameIdTo</key>
+		<integer>24</integer>
+	</dict>
+	<dict>
+		<key>actionName</key>
+		<string>PPPH</string>
+		<key>actionFileMaskName</key>
+		<string>PPPH%d.png</string>
+		<key>beat</key>
+		<integer>4</integer>
+		<key>frameIdFrom</key>
+		<string>1</string>
+		<key>frameIdTo</key>
+		<string>22</string>
+	</dict>
+	<dict>
+		<key>actionName</key>
+		<string>8の字</string>
+		<key>actionFileMaskName</key>
+		<string>8の字%d.png</string>
+		<key>beat</key>
+		<integer>4</integer>
+		<key>frameIdFrom</key>
+		<integer>1</integer>
+		<key>frameIdTo</key>
+		<integer>31</integer>
+	</dict>
+	<dict>
+		<key>actionName</key>
+		<string>ロマンス</string>
+		<key>actionFileMaskName</key>
+		<string>ロマンス%04d.png</string>
+		<key>beat</key>
+		<integer>8</integer>
+		<key>frameIdFrom</key>
+		<integer>1</integer>
+		<key>frameIdTo</key>
+		<integer>207</integer>
+	</dict>
+</array>
+</plist>
