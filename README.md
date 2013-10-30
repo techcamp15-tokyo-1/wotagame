@@ -1,5 +1,5 @@
 #wotagame
-##ファイル構成
+##フォルダ構成
 - scores　楽譜ファイル
 - spriteSheet　画像ファイルの元データ
 - wotagame　メイン
